@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Header/header";
-import Logo from "./assets/img/GS-logo.jpg";
+import Logo from "./assets/img/logo.svg";
 import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
 import News from "./News/News";

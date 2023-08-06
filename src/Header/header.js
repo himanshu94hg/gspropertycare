@@ -1,7 +1,8 @@
 import { FiMenu } from "react-icons/fi";
 import "./header.css";
+import Logo from "../Logo/Logo";
 
-const Header = (props) => {
+const Header = () => {
   return (
     <>
       <div className="home">
@@ -48,15 +49,7 @@ const Header = (props) => {
                                 rel="home"
                                 aria-current="page"
                               >
-                                <img
-                                  width="240"
-                                  height="76"
-                                  src={props.logo}
-                                  className="custom-logo"
-                                  alt="VW Cleaning Company Pro"
-                                  decoding="async"
-                                  defaultValue
-                                />
+                                <Logo />
                               </a>
                               <div className="logo-text"></div>
                             </div>

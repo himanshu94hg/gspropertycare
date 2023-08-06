@@ -2205,3 +2205,10 @@ a {
     right: 20px;
   }
 }
+
+.news-head,
+.services-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

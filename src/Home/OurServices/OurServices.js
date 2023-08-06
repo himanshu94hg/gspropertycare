@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import smallLogo from "../../assets/img/GS-logo-small.png";
+import smallLogo from "../../assets/img/logoSmall.svg";
 import removals from "../../assets/img/services/service/removals.png";
 import bondcleaning from "../../assets/img/services/service/bondcleaning.png";
 import carpet from "../../assets/img/services/service/steam-carpet-cleaning.png";
@@ -9,6 +9,7 @@ import Plumbers from "../../assets/img/services/service/Plumbers.png";
 import gardening from "../../assets/img/services/service/gardening.png";
 import electrician from "../../assets/img/services/service/electrician.png";
 import locksmith from "../../assets/img/services/service/locksmith.png";
+import SmallLogo from "../../Logo/SmallLogo";
 
 const OurServices = () => {
   const [condition, setCondition] = useState(1);
@@ -70,7 +71,7 @@ const OurServices = () => {
       >
         <div className="container">
           <div className="services-head section_main_head text-center pb-5 block_head">
-            <img src={smallLogo} width={75} alt="Alt tab for Services icon" />
+            <SmallLogo />
             <small>PROVIDE SERVICES </small>
             <h3>OUR CLEANING SERVICES </h3>
           </div>

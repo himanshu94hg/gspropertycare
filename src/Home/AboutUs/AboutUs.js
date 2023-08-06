@@ -1,5 +1,6 @@
 import React from "react";
 import smallLogo from "../../assets/img/GS-logo-small.png";
+import SmallLogo from "../../Logo/SmallLogo";
 
 const AboutUs = () => {
   return (
@@ -10,12 +11,7 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-12 about-details pb-5">
               <div className="about-head section_main_head">
                 <div className="media">
-                  <img
-                    className="d-flex mr-3"
-                    src={smallLogo}
-                    width={75}
-                    alt="Alt Tag for image about us icon"
-                  />
+                  <SmallLogo />
                   <div className="media-body about-title">
                     <small>ABOUT US </small>
                     <h3>WELCOME TO GS Property Care </h3>

@@ -276,58 +276,6 @@ const Footer = () => {
                         </aside>
                       </div>
                     </div>
-                    <div className="col-lg-4 col-sm-6">
-                      <div className="social_widget">
-                        <aside
-                          id="wpb_social_widget-1"
-                          className="widget widget_wpb_social_widget"
-                        >
-                          <h3 className="widget-title">My Social Profile</h3>
-                          <div className="custom-social-icons">
-                            <a className="custom_facebook" href="/">
-                              <i className="fab fa-facebook-f" />
-                              <span>Facebook</span>
-                            </a>
-                            <a className="custom_twitter" href="/">
-                              <i className="fab fa-twitter" />
-                              <span>Twitter</span>
-                            </a>
-                            <a className="custom_linkedin" href="/">
-                              <i className="fab fa-linkedin-in" />
-                              <span>Linkedin</span>
-                            </a>
-                            <a className="custom_instagram" href="/">
-                              <i className="fab fa-instagram" />
-                              <span>Instagram</span>
-                            </a>
-                          </div>
-                        </aside>
-                      </div>
-                      <aside
-                        id="custom_html-3"
-                        className="widget_text widget widget_custom_html"
-                      >
-                        <div className="textwidget custom-html-widget">
-                          <div style={{ marginTop: 15 }}>
-                            <a
-                              style={{ borderBottom: "1px solid" }}
-                              className="text-bundle"
-                              href="/"
-                            >
-                              WordPress Theme Bundle
-                            </a>
-                          </div>
-                          <a
-                            className="footer-buy-now"
-                            target="_blank"
-                            rel="noreferrer"
-                            href="/"
-                          >
-                            Buy Now
-                          </a>
-                        </div>
-                      </aside>
-                    </div>
                   </div>
                   <div className="row newsletter">
                     <div className="col-lg-6 col-md-6">
