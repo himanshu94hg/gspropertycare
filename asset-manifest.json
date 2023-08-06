@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/himanshu94hg/gspropertycare/static/css/main.42bbd2ab.css",
+    "main.js": "/himanshu94hg/gspropertycare/static/js/main.92f04067.js",
+    "static/js/787.2c152406.chunk.js": "/himanshu94hg/gspropertycare/static/js/787.2c152406.chunk.js",
+    "static/media/3.webp": "/himanshu94hg/gspropertycare/static/media/3.6405876cdfca9bc6a512.webp",
+    "static/media/1.webp": "/himanshu94hg/gspropertycare/static/media/1.7088f29ca6234398ed33.webp",
+    "static/media/2.webp": "/himanshu94hg/gspropertycare/static/media/2.c59c5232597538801cdb.webp",
+    "static/media/gardening.png": "/himanshu94hg/gspropertycare/static/media/gardening.6322ec92f6880dcccc7c.png",
+    "static/media/tiles.png": "/himanshu94hg/gspropertycare/static/media/tiles.eb1d127bfe48fc0aa994.png",
+    "static/media/electrician.png": "/himanshu94hg/gspropertycare/static/media/electrician.5484f3eaf8d990ffcf9c.png",
+    "static/media/7.jpg": "/himanshu94hg/gspropertycare/static/media/7.2c3ae996890141013909.jpg",
+    "static/media/bondcleaning.png": "/himanshu94hg/gspropertycare/static/media/bondcleaning.53f4cbc55351c0e98aab.png",
+    "static/media/Handyman.png": "/himanshu94hg/gspropertycare/static/media/Handyman.69d2d5971b0d6486e836.png",
+    "static/media/hero-bg-5.png": "/himanshu94hg/gspropertycare/static/media/hero-bg-5.28865cff70117ff517aa.png",
+    "static/media/Plumbers.png": "/himanshu94hg/gspropertycare/static/media/Plumbers.470e39de21548954e115.png",
+    "static/media/locksmith.png": "/himanshu94hg/gspropertycare/static/media/locksmith.870a483663d701171179.png",
+    "static/media/steam-carpet-cleaning.png": "/himanshu94hg/gspropertycare/static/media/steam-carpet-cleaning.b7bf682e6c98b9cab7ae.png",
+    "static/media/removals.png": "/himanshu94hg/gspropertycare/static/media/removals.f259509dc68b0dd8d8fe.png",
+    "static/media/hero-bg3.jpg": "/himanshu94hg/gspropertycare/static/media/hero-bg3.0a1e135d46d7e15bd511.jpg",
+    "static/media/hero-bg3.webp": "/himanshu94hg/gspropertycare/static/media/hero-bg3.8149651adbb0ce7e7a8e.webp",
+    "static/media/GS-logo-small.png": "/himanshu94hg/gspropertycare/static/media/GS-logo-small.311ddbd9307f3bba7c19.png",
+    "static/media/news3.webp": "/himanshu94hg/gspropertycare/static/media/news3.02ff1783ead3eaeb0158.webp",
+    "static/media/news1.webp": "/himanshu94hg/gspropertycare/static/media/news1.359f9df266a0fd939856.webp",
+    "static/media/8.webp": "/himanshu94hg/gspropertycare/static/media/8.78aae86f9ca24a9c625d.webp",
+    "static/media/news2.webp": "/himanshu94hg/gspropertycare/static/media/news2.f76102ed40ea12928e4a.webp",
+    "static/media/logo.svg": "/himanshu94hg/gspropertycare/static/media/logo.40ffe85199895f3d49be19e62ad58ae6.svg",
+    "static/media/logoSmall.svg": "/himanshu94hg/gspropertycare/static/media/logoSmall.e7d6c0690ab7c06a67ca070ebc8108e3.svg",
+    "index.html": "/himanshu94hg/gspropertycare/index.html",
+    "main.42bbd2ab.css.map": "/himanshu94hg/gspropertycare/static/css/main.42bbd2ab.css.map",
+    "main.92f04067.js.map": "/himanshu94hg/gspropertycare/static/js/main.92f04067.js.map",
+    "787.2c152406.chunk.js.map": "/himanshu94hg/gspropertycare/static/js/787.2c152406.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42bbd2ab.css",
+    "static/js/main.92f04067.js"
+  ]
+}
