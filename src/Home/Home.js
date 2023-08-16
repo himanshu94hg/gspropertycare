@@ -4,8 +4,10 @@ import Features from "./features";
 import heroBG from "../assets/img/hero-bg3.webp";
 import heroBGTwo from "../assets/img/hero-bg3.jpg";
 import heroBGThree from "../assets/img/hero-bg-5.png";
-import OurServices from "./OurServices/OurServices";
 import AboutUs from "./AboutUs/AboutUs";
+import AutoplayCarousel from "./OurServices/AutoplayCarousel";
+import News from "../News/News";
+import CallingFeature from "./CallingFeature/CallingFeature";
 
 const Home = () => {
   return (
@@ -257,8 +259,10 @@ const Home = () => {
         <div className="clearfix"></div>
       </section>
       <Features />
+      <AutoplayCarousel />
       <AboutUs />
-      <OurServices />
+      <CallingFeature />
+      <News />
     </>
   );
 };

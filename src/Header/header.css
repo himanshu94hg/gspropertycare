@@ -35,7 +35,7 @@ amp-sidebar#sidebar1 {
 
 .closepop {
   position: absolute;
-  top: 29%;
+  top: 10%;
   transform: translateY(-50%);
   width: 100%;
   right: 0;
@@ -55,11 +55,12 @@ amp-sidebar#sidebar1 {
   display: table;
   border-radius: 0;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 90%;
   width: 100%;
 }
 
-.serach-page input.search-field {
+.serach-page input.search-field,
+.serach-page textarea.search-field {
   border: 1px solid var(--color13);
   padding: 9px;
 }
@@ -73,10 +74,14 @@ amp-sidebar#sidebar1 {
 
 .search_popup label {
   background: 0 0;
-  width: 81%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.search_popup input.search-field {
+.search_popup input.search-field,
+.search_popup textarea.search-field {
   padding: 1.5% 0;
   background: 0 0;
   width: 100%;
@@ -88,19 +93,14 @@ amp-sidebar#sidebar1 {
   border-right: none;
 }
 
-.search_popup input.search-field::placeholder {
+.search_popup input.search-field::placeholder,
+.search_popup textarea.search-field::placeholder {
   font-size: 17px;
   color: #fff;
 }
 
 .search_popup .search-submit {
-  color: #fff;
-  border-radius: 50%;
-  background-color: var(--blue);
-  padding: 10px 13px;
-  width: 50px;
-  height: 50px;
-  border: none;
+  margin-top: 50px;
 }
 
 .home .page-template #topbar {
@@ -754,4 +754,12 @@ a.closebtn {
 }
 .hamberger-icon {
   display: none;
+}
+button.theme_blue_button {
+  border: none;
+  white-space: nowrap;
+}
+.Form-row {
+  display: flex;
+  margin-top: 25px;
 }

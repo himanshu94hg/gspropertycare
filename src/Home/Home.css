@@ -1,3 +1,7 @@
+#about-us {
+  margin-bottom: 50px;
+}
+
 #slider .slide_nav i:hover,
 #about-us .about-head:after,
 .block_head h3:after,
@@ -179,6 +183,10 @@
   background-color: var(--color16);
 }
 
+#our-features {
+  background-color: #e4eaf1;
+}
+
 #our-features h3 a,
 .feature_box2 h5 a,
 #our-services .box h5,
@@ -246,12 +254,12 @@
 
 #about-us .about-head:after {
   content: "";
-  height: 3px;
-  width: 393px;
   display: block;
+  height: 3px;
+  left: 94px;
   position: relative;
   top: -3px;
-  left: 90px;
+  width: 200px;
 }
 
 #about-us .about-text {
@@ -1015,4 +1023,54 @@
 
 .animate__animated.animate__delay-1s {
   animation-delay: 1s;
+}
+
+#our-services .slick-track {
+  display: flex !important;
+  gap: 15px;
+}
+#call-now-records {
+  margin-top: 100px;
+}
+
+.callnow {
+  background-image: url("../assets/img/call_bg.jpg");
+  position: relative;
+  margin-bottom: -19%;
+  padding-bottom: 13%;
+}
+
+.callnow p {
+  color: #838384;
+  margin-bottom: 0;
+  font: 400 16px var(--common-font-p);
+}
+.callnow h2 {
+  letter-spacing: 2px;
+  font: 700 52px var(--common-font-p);
+}
+
+.callnow-right {
+  position: relative;
+}
+
+.callnow-right img {
+  position: absolute;
+  bottom: -37px;
+}
+
+.our_records {
+  padding: 0;
+}
+
+#latest-news {
+  padding-top: 10%;
+}
+
+.our_records .our-records-details {
+  position: relative;
+  top: 120px;
+}
+.width-content-fit {
+  width: fit-content;
 }

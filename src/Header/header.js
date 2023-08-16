@@ -1,8 +1,16 @@
 import { FiMenu } from "react-icons/fi";
 import "./header.css";
 import Logo from "../Logo/Logo";
+import QueryForm from "./QueryForm";
 
 const Header = () => {
+  const handleForm = () => {
+    document.getElementById("serach_outer").style.display = "block";
+  };
+
+  const handleFormClose = () => {
+    document.getElementById("serach_outer").style.display = "none";
+  };
   return (
     <>
       <div className="home">
@@ -118,13 +126,16 @@ const Header = () => {
                             </div>
                           </div>
                           <div className="col-lg-3 col-md-6 col-sm-6 header-button">
-                            <a className="theme_blue_button" href="/">
+                            <button
+                              className="theme_blue_button"
+                              onClick={handleForm}
+                            >
                               <i className="far fa-calendar-alt"></i>
                               BOOK AN APPOINTMENT
                               <span className="screen-reader-text">
                                 video button
                               </span>
-                            </a>
+                            </button>
                           </div>
                           <div className="col-lg-3 col-md-6 col-sm-6 hamberger-icon text-right">
                             <FiMenu size={24} />
@@ -218,6 +229,19 @@ const Header = () => {
                                   </div>
                                 </div>
                               </div>
+                            </div>
+                          </div>
+
+                          <div
+                            className="serach_outer"
+                            id="serach_outer"
+                            style={{ display: "none" }}
+                          >
+                            <div onClick={handleFormClose} className="closepop">
+                              <i className="far fa-window-close" />
+                            </div>
+                            <div className="serach_inner search_popup">
+                              <QueryForm />
                             </div>
                           </div>
                         </div>

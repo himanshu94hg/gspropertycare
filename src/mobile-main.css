@@ -77,7 +77,7 @@
   }
 
   .serach_inner input.search-field {
-    width: 85%;
+    width: 100%;
   }
 
   .logo p {
@@ -636,6 +636,10 @@
     margin: 6px auto;
     margin-right: auto !important;
   }
+  #topbar {
+    display: none;
+  }
+
   .header-call,
   .social-box-div {
     display: none;
@@ -711,6 +715,27 @@
     width: 80px;
     left: 0;
     margin-top: 20px;
+  }
+  .main-header-box .menu-box {
+    margin-top: 5px;
+  }
+
+  .call-left,
+  .callnow-right {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .callnow-right {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .call-left {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
   }
 }
 
@@ -978,5 +1003,72 @@
 
   #slider .carousel-next-button {
     right: 20px;
+  }
+  #call-now #call-now-content img {
+    bottom: -60px;
+  }
+}
+@media screen and (max-width: 1500px) and (min-width: 1150px) {
+  .callnow-right img {
+    bottom: -60px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .callnow-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .callnow-right img {
+    position: unset;
+  }
+  .our_records .our-records-details {
+    top: 20px;
+  }
+  .callnow h2 {
+    white-space: nowrap;
+  }
+  .call-left {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .our_records .our-records-details {
+    top: 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .our-record-box {
+    padding: 15px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .our-records-content .our-record-box .media {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .our-record-box p {
+    font: 700 10px var(--common-font-p);
+    white-space: inherit;
+  }
+
+  .our-record-box i {
+    font-size: 25px;
+  }
+
+  .our-records-content span {
+    letter-spacing: inherit;
+    font: 700 14px var(--common-font-p);
+  }
+  .callnow p {
+    white-space: nowrap;
+  }
+  .callnow h2 {
+    font: 700 32px var(--common-font-p);
   }
 }

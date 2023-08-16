@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import smallLogo from "../../assets/img/logoSmall.svg";
 import removals from "../../assets/img/services/service/removals.png";
 import bondcleaning from "../../assets/img/services/service/bondcleaning.png";
 import carpet from "../../assets/img/services/service/steam-carpet-cleaning.png";
@@ -19,6 +18,9 @@ const OurServices = () => {
     const interval1 = 2000; // 3 seconds
     const interval2 = 4000; // 5 seconds
     const interval3 = 6000; // 7 seconds
+
+    console.log(interval2);
+    console.log(interval1);
 
     // Set up the timer to change the condition every interval
     const timer = setInterval(() => {
@@ -64,7 +66,6 @@ const OurServices = () => {
     <>
       <section
         id="our-services"
-        style={{}}
         className=""
         data-loops="true"
         data-speed={3000}
@@ -104,7 +105,8 @@ const OurServices = () => {
                         <a href="/">Care Removals</a>
                       </h5>
                       <div className="services-text">
-                        Te obtinuit ut adepto satis somno. Aliisque institoribus
+                        Seamless Transitions, Stress-Free Moves: Your Home, Our
+                        Expertise.
                       </div>
                     </div>
                     <div className="services-box">
@@ -145,7 +147,8 @@ const OurServices = () => {
                         <a href="/">Care Bond Cleaning</a>
                       </h5>
                       <div className="services-text">
-                        Te obtinuit ut adepto satis somno. Aliisque institoribus
+                        Transforming Spaces, Restoring Brilliance – Your Trusted
+                        Bond Cleaning Partner.
                       </div>
                     </div>
                     <div className="services-box">
@@ -185,7 +188,8 @@ const OurServices = () => {
                         <a href="/">Care Carpet Cleaning</a>
                       </h5>
                       <div className="services-text">
-                        Te obtinuit ut adepto satis somno. Aliisque institoribus
+                        Revitalize Your Space with Expert Carpet Cleaning
+                        Solutions!
                       </div>
                     </div>
                     <div className="services-box">
@@ -223,10 +227,11 @@ const OurServices = () => {
                         />
                       </span>
                       <h5>
-                        <a href="/">Cere Tiles Grout Cleaning</a>
+                        <a href="/">Care Tiles Grout Cleaning</a>
                       </h5>
                       <div className="services-text">
-                        Te obtinuit ut adepto satis somno. Aliisque institoribus
+                        Revive Your Tiles: Grout Cleaning for Gleaming, Fresh
+                        Floors!
                       </div>
                     </div>
                     <div className="services-box">
@@ -267,7 +272,8 @@ const OurServices = () => {
                         <a href="/">Care Handyman</a>
                       </h5>
                       <div className="services-text">
-                        Te obtinuit ut adepto satis somno. Aliisque institoribus
+                        Fixing, building, and improving – we've got your home
+                        covered.
                       </div>
                     </div>
                     <div className="services-box">
@@ -308,7 +314,8 @@ const OurServices = () => {
                         <a href="/">Care Plumbers</a>
                       </h5>
                       <div className="services-text">
-                        Te obtinuit ut adepto satis somno. Aliisque institoribus
+                        Flow Solutions: Plumbing Excellence Delivered with Every
+                        Drop.
                       </div>
                     </div>
                     <div className="services-box">
@@ -349,7 +356,8 @@ const OurServices = () => {
                         <a href="/">Care Gardening</a>
                       </h5>
                       <div className="services-text">
-                        Te obtinuit ut adepto satis somno. Aliisque institoribus
+                        Cultivating Dreams, One Garden at a Time. Your Oasis
+                        Awaits.
                       </div>
                     </div>
                     <div className="services-box">
@@ -390,7 +398,8 @@ const OurServices = () => {
                         <a href="/">Care Electrician</a>
                       </h5>
                       <div className="services-text">
-                        Te obtinuit ut adepto satis somno. Aliisque institoribus
+                        Powering Your World with Expert Electrical Solutions and
+                        Service Excellence.
                       </div>
                     </div>
                     <div className="services-box">
@@ -431,7 +440,8 @@ const OurServices = () => {
                         <a href="/">Care Locksmith</a>
                       </h5>
                       <div className="services-text">
-                        Te obtinuit ut adepto satis somno. Aliisque institoribus
+                        Unlocking Solutions, Securing Peace: Your Trusted
+                        Locksmith Partner.
                       </div>
                     </div>
                     <div className="services-box">

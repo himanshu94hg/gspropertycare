@@ -11,7 +11,7 @@ const Features = () => {
     <>
       <section id="our-features">
         <div className="container">
-          <div className="feature-details " style={{}}>
+          <div className="feature-details ">
             <div className="row">
               <div className="col-lg-4 col-md-6 feature_box1">
                 <img src={featureOne} alt="Alt Tag for feature icon" />
@@ -19,7 +19,8 @@ const Features = () => {
                   <a href="/">HIGHLY-TRAINED PAINTERS </a>
                 </h3>
                 <p>
-                  Te obtinuit ut adepto satis somno. Aliisque institoribus iter
+                  Skilled craftsmen master detailed brushwork and artistic
+                  finesse.
                 </p>
               </div>
               <div className="col-lg-4 col-md-6 feature_box1">
@@ -28,7 +29,8 @@ const Features = () => {
                   <a href="/">PROFESSIONAL HANDYMAN</a>
                 </h3>
                 <p>
-                  Te obtinuit ut adepto satis somno. Aliisque institoribus iter
+                  Efficiently offering diverse home maintenance and repair
+                  expertise.
                 </p>
               </div>
               <div className="col-lg-4 col-md-12 feature_box2">
@@ -40,7 +42,7 @@ const Features = () => {
                     <h5>
                       <a href="/">BONDED &amp; INSURED </a>
                     </h5>
-                    <p>Te obtinuit ut adepto satis somno. Aliisque </p>
+                    <p>Thoroughly tidy to meet lease-end requirements.</p>
                   </div>
                 </div>
                 <div className="media mb-4 custom_block">
@@ -51,7 +53,9 @@ const Features = () => {
                     <h5>
                       <a href="/">QUALITY CLEANS </a>
                     </h5>
-                    <p>Te obtinuit ut adepto satis somno. Aliisque </p>
+                    <p>
+                      Precise, faultless cleaning with exceptional attention.
+                    </p>
                   </div>
                 </div>
                 <div className="media mb-4 custom_block">
@@ -62,7 +66,7 @@ const Features = () => {
                     <h5>
                       <a href="/">HAPPY CUSTOMERS </a>
                     </h5>
-                    <p>Te obtinuit ut adepto satis somno. Aliisque </p>
+                    <p>Clients thrilled, joyfully content with services.</p>
                   </div>
                 </div>
               </div>

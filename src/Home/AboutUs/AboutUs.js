@@ -1,11 +1,10 @@
 import React from "react";
-import smallLogo from "../../assets/img/GS-logo-small.png";
 import SmallLogo from "../../Logo/SmallLogo";
 
 const AboutUs = () => {
   return (
     <>
-      <section id="about-us" style={{}} className=" pt-0">
+      <section id="about-us">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12 about-details pb-5">
@@ -28,14 +27,14 @@ const AboutUs = () => {
                 ex contractus, hi viri qui sedebat ibi Te obtinuit ut adepto
                 satis somno.
               </p>
-              <a className="theme_yellow_button" href="#">
+              <a className="theme_yellow_button" href="/">
                 GET STARTED <i className="fas fa-chevron-right" />
               </a>
             </div>
             <div className="col-lg-6 col-md-12 about-image d-flex align-items-end">
               <img
                 src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/about/about-img.png"
-                alt="Alt Tag for image about us heading"
+                alt="about us heading"
               />
             </div>
           </div>

@@ -1,12 +1,23 @@
 import React from "react";
 
 const Logo = () => {
+  let logoHeight;
+  let logoWidth;
+
+  if (window.innerWidth > 991) {
+    logoHeight = "88";
+    logoWidth = "191.442";
+  } else {
+    logoHeight = "50";
+    logoWidth = "97";
+  }
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="191.442"
-      height={84}
+      width={logoWidth}
+      height={logoHeight}
       viewBox="0 0 191.442 84"
     >
       <defs>
@@ -27,7 +38,7 @@ const Logo = () => {
             id="Rectangle_11"
             data-name="Rectangle 11"
             width={158}
-            height={14}
+            height={17}
             rx={2}
             transform="translate(36 359)"
             fill="#ffcf00"
@@ -35,9 +46,9 @@ const Logo = () => {
           <text
             id="Property_Care"
             data-name="Property Care"
-            transform="translate(69 370)"
+            transform="translate(55 374)"
             fill="#ffefdf"
-            fontSize={12}
+            fontSize={16}
             fontFamily="Poppins-Regular, Poppins"
             letterSpacing="0.01em"
           >

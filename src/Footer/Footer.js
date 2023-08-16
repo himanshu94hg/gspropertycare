@@ -7,7 +7,7 @@ const Footer = () => {
       <>
         <footer className="outer-footer" role="contentinfo">
           <div className="outer-footer">
-            <div id="footer" style={{}}>
+            <div id="footer">
               <div id="footer_box">
                 <div className="container footer-cols">
                   <section
@@ -227,7 +227,7 @@ const Footer = () => {
                       </div>
                     </div>
                   </section>
-
+                  {/* http://gspropertycare.com.au/ */}
                   <div className="row footer-details">
                     <div className="col-lg-4 col-sm-6 footer1">
                       <aside id="text-2" className="widget widget_text">
@@ -372,7 +372,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="copyright" style={{}}>
+                <div className="copyright">
                   <div className="container">
                     <div className="row copy-text">
                       <div className="col-lg-7 col-md-7 copyright-text">
@@ -441,7 +441,7 @@ const Footer = () => {
                         </div>
                       </div>
                       <a
-                        href="/"
+                        href="#topbar"
                         id="return-to-top"
                         style={{ display: "inline" }}
                       >

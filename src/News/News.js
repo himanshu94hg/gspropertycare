@@ -5,13 +5,12 @@ import newsTwo from "../assets/img/news2.webp";
 import newsThree from "../assets/img/news3.webp";
 import newsFour from "../assets/img/3.webp";
 import newsFive from "../assets/img/1.webp";
-import logoSmall from "../assets/img/GS-logo-small.png";
 import SmallLogo from "../Logo/SmallLogo";
 
 const News = () => {
   return (
     <>
-      <section id="latest-news" style={{}} className="">
+      <section id="latest-news" className="">
         <div className="container">
           <div className="news-head section_main_head text-center pb-5 block_head">
             <SmallLogo />
