@@ -6,11 +6,11 @@ import MobileLogo from "../Logo/MobileLogo";
 
 const Header = () => {
   const handleForm = () => {
-    document.getElementById("serach_outer").style.display = "block";
+    document.getElementById("serach_outer").style.top = "0em";
   };
 
   const handleFormClose = () => {
-    document.getElementById("serach_outer").style.display = "none";
+    document.getElementById("serach_outer").style.top = "-55em";
   };
   return (
     <>
@@ -242,11 +242,7 @@ const Header = () => {
                             </div>
                           </div>
 
-                          <div
-                            className="serach_outer"
-                            id="serach_outer"
-                            style={{ display: "none" }}
-                          >
+                          <div className="serach_outer" id="serach_outer">
                             <div onClick={handleFormClose} className="closepop">
                               <i className="far fa-window-close" />
                             </div>
