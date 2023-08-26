@@ -26,7 +26,7 @@
   #our-projects .project-tabs ul li a:before,
   #how-we-work .process-box span:after,
   #footer ul li:before,
-  #slider a.theme_blue_button {
+  #slider a.theme_yellow_button {
     display: none;
   }
 
@@ -149,6 +149,8 @@
 
   .home .page-template .main-header-box {
     position: unset;
+    padding-block: 0;
+    padding-inline: 15px;
   }
 
   .header-app-button {
@@ -726,6 +728,12 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .logoLarge {
+    display: none;
+  }
+  .smallLogo {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1070,5 +1078,11 @@
   }
   .callnow h2 {
     font: 700 32px var(--common-font-p);
+  }
+  .main-header-box {
+    background: #1c7cd1 !important;
+  }
+  #footer {
+    margin-top: 150px;
   }
 }

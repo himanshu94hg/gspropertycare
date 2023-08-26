@@ -253,6 +253,7 @@ a.theme_blue_button,
 button.theme_blue_button,
 a.button,
 a.theme_yellow_button,
+button.theme_yellow_button,
 a.theme_color_button2,
 #newsletter input[type="submit"],
 .woocommerce a.button,
@@ -301,6 +302,7 @@ button.theme_blue_button,
 .woocommerce a.added_to_cart,
 .contact-box .startup-contact-form input[type="submit"],
 a.theme_yellow_button:hover,
+button.theme_yellow_button:hover,
 input[type="submit"],
 a.custom_read_more {
   background-color: var(--blue);
@@ -308,6 +310,7 @@ a.custom_read_more {
 }
 
 a.theme_yellow_button,
+button.theme_yellow_button,
 a.theme_blue_button:hover,
 button.theme_blue_button:hover,
 .woocommerce #respond input#submit:hover,
@@ -322,6 +325,7 @@ button.theme_blue_button:hover,
 }
 
 a.theme_yellow_button,
+button.theme_yellow_button,
 .woocommerce #respond input#submit.alt:hover,
 .woocommerce a.button.alt:hover,
 .woocommerce button.button.alt:hover,
@@ -330,6 +334,7 @@ a.theme_yellow_button,
 }
 
 a.theme_yellow_button i,
+button.theme_yellow_button i,
 a.theme_blue_button i,
 button.theme_blue_button i {
   font-size: 12px;
@@ -1274,7 +1279,8 @@ a {
   #our-projects .project-tabs ul li a:before,
   #how-we-work .process-box span:after,
   #footer ul li:before,
-  #slider a.theme_blue_button,
+  #slider a.theme_yellow_button,
+  #slider button.theme_yellow_button,
   #slider button.theme_blue_button {
     display: none;
   }

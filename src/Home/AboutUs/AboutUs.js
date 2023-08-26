@@ -1,5 +1,6 @@
 import React from "react";
 import SmallLogo from "../../Logo/SmallLogo";
+import AboutImage from "../../assets/img/about-img.webp";
 
 const AboutUs = () => {
   return (
@@ -18,24 +19,19 @@ const AboutUs = () => {
                 </div>
               </div>
               <p className="about-text">
-                Te obtinuit ut adepto satis somno. Aliisque institoribus iter
-                deliciae vivet vita. Nam exempli gratia, quotiens ego vadam ad
-                diversorum peregrinorum in mane ut effingo ex contractus, hi
-                viri qui sedebat ibi Te obtinuit ut adepto satis somno. Aliisque
-                institoribus iter deliciae vivet vita. Nam exempli gratia,
-                quotiens ego vadam ad diversorum peregrinorum in mane ut effingo
-                ex contractus, hi viri qui sedebat ibi Te obtinuit ut adepto
-                satis somno.
+                GS Property Care is a skilled team of experts covering various
+                fields, dedicated to addressing your household needs. From
+                cleaning and maintenance to repairs and services like plumbing,
+                gardening, and more, we enhance homes across Australia. With a
+                nationwide presence, we are the preferred choice for many
+                Australian households, standing out due to our excellence.
               </p>
               <a className="theme_yellow_button" href="/">
                 GET STARTED <i className="fas fa-chevron-right" />
               </a>
             </div>
             <div className="col-lg-6 col-md-12 about-image d-flex align-items-end">
-              <img
-                src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/about/about-img.png"
-                alt="about us heading"
-              />
+              <img src={AboutImage} alt="about us heading" />
             </div>
           </div>
         </div>

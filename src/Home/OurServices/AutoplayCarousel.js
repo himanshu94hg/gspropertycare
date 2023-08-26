@@ -10,6 +10,14 @@ import Plumbers from "../../assets/img/services/service/Plumbers.png";
 import gardening from "../../assets/img/services/service/gardening.png";
 import electrician from "../../assets/img/services/service/electrician.png";
 import locksmith from "../../assets/img/services/service/locksmith.png";
+import CleaningIcon from "../../assets/img/services/icons/cleaning.png";
+import RemovalIcon from "../../assets/img/services/icons/removal.png";
+import CarpetIcon from "../../assets/img/services/icons/carpet.png";
+import tilesIcon from "../../assets/img/services/icons/tiles.png";
+// import handymenIcon from "../../assets/img/services/icons/handymen.png";
+import PlumberIcon from "../../assets/img/services/icons/plumber.png";
+import GardeningIcon from "../../assets/img/services/icons/gardening.png";
+import ElectricianIcon from "../../assets/img/services/icons/electrician.png";
 import "slick-carousel/slick/slick-theme.css";
 import SmallLogo from "../../Logo/SmallLogo";
 
@@ -19,7 +27,7 @@ const AutoplayCarousel = () => {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: window.innerWidth > 991 ? 4000 : 2000,
+    autoplaySpeed: window.innerWidth > 991 ? 100000 : 2000,
     slidesToShow: window.innerWidth > 991 ? 3 : 1,
     slidesToScroll: window.innerWidth > 991 ? 2 : 1,
     arrows: false,
@@ -47,10 +55,8 @@ const AutoplayCarousel = () => {
             />
             <div className="box-content">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon3.png"
-                  alt="Alt Tag for Services meta image1"
-                />
+                {" "}
+                <img src={RemovalIcon} alt="RemovalIcon" />
               </span>
               <h5>
                 <a href="/">Care Removals</a>
@@ -62,10 +68,7 @@ const AutoplayCarousel = () => {
             </div>
             <div className="services-box">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon3.png"
-                  alt="Alt Tag for Services meta image1"
-                />
+                <img src={RemovalIcon} alt="RemovalIcon" />
               </span>
               <h5>Care Removals</h5>
             </div>
@@ -84,10 +87,7 @@ const AutoplayCarousel = () => {
             />
             <div className="box-content">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon2.png"
-                  alt="Alt Tag for Services meta image2"
-                />
+                <img src={CleaningIcon} alt="CleaningIcon" />
               </span>
               <h5>
                 <a href="/">Care Bond Cleaning</a>
@@ -99,10 +99,7 @@ const AutoplayCarousel = () => {
             </div>
             <div className="services-box">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon2.png"
-                  alt="Alt Tag for Services meta image2"
-                />
+                <img src={CleaningIcon} alt="CleaningIcon" />
               </span>
               <h5>Care Bond Cleaning</h5>
             </div>
@@ -120,10 +117,7 @@ const AutoplayCarousel = () => {
             />
             <div className="box-content">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon1.png"
-                  alt="Alt Tag for Services meta image3"
-                />
+                <img src={CarpetIcon} alt="Alt Tag for Services meta image3" />
               </span>
               <h5>
                 <a href="/">Care Carpet Cleaning</a>
@@ -134,10 +128,7 @@ const AutoplayCarousel = () => {
             </div>
             <div className="services-box">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon1.png"
-                  alt="Alt Tag for Services meta image3"
-                />
+                <img src={CarpetIcon} alt="Alt Tag for Services meta image3" />
               </span>
               <h5>Care Carpet Cleaning</h5>
             </div>
@@ -156,10 +147,7 @@ const AutoplayCarousel = () => {
             />
             <div className="box-content">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon3.png"
-                  alt="Alt Tag for Services meta image1"
-                />
+                <img src={tilesIcon} alt="Alt Tag for Services meta image2" />
               </span>
               <h5>
                 <a href="/">Care Tiles Grout Cleaning</a>
@@ -170,12 +158,9 @@ const AutoplayCarousel = () => {
             </div>
             <div className="services-box">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon3.png"
-                  alt="Alt Tag for Services meta image1"
-                />
+                <img src={tilesIcon} alt="Alt Tag for Services meta image2" />
               </span>
-              <h5>Cere Tiles Grout Cleaning</h5>
+              <h5>Care Tiles Grout Cleaning</h5>
             </div>
           </div>
           <div className="box services-info ">
@@ -192,10 +177,7 @@ const AutoplayCarousel = () => {
             />
             <div className="box-content">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon2.png"
-                  alt="Alt Tag for Services meta image2"
-                />
+                <img src={PlumberIcon} alt="Alt Tag for Services meta image2" />
               </span>
               <h5>
                 <a href="/">Care Handyman</a>
@@ -206,10 +188,7 @@ const AutoplayCarousel = () => {
             </div>
             <div className="services-box">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon2.png"
-                  alt="Alt Tag for Services meta image2"
-                />
+                <img src={PlumberIcon} alt="Alt Tag for Services meta image2" />
               </span>
               <h5>Care Handyman</h5>
             </div>
@@ -228,10 +207,7 @@ const AutoplayCarousel = () => {
             />
             <div className="box-content">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon1.png"
-                  alt="Alt Tag for Services meta image3"
-                />
+                <img src={PlumberIcon} alt="Alt Tag for Services meta image3" />
               </span>
               <h5>
                 <a href="/">Care Plumbers</a>
@@ -242,10 +218,7 @@ const AutoplayCarousel = () => {
             </div>
             <div className="services-box">
               <span>
-                <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon1.png"
-                  alt="Alt Tag for Services meta image3"
-                />
+                <img src={PlumberIcon} alt="Alt Tag for Services meta image3" />
               </span>
               <h5>Care Plumbers</h5>
             </div>
@@ -265,7 +238,7 @@ const AutoplayCarousel = () => {
             <div className="box-content">
               <span>
                 <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon3.png"
+                  src={GardeningIcon}
                   alt="Alt Tag for Services meta image1"
                 />
               </span>
@@ -279,7 +252,7 @@ const AutoplayCarousel = () => {
             <div className="services-box">
               <span>
                 <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon3.png"
+                  src={GardeningIcon}
                   alt="Alt Tag for Services meta image1"
                 />
               </span>
@@ -301,7 +274,7 @@ const AutoplayCarousel = () => {
             <div className="box-content">
               <span>
                 <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon2.png"
+                  src={ElectricianIcon}
                   alt="Alt Tag for Services meta image2"
                 />
               </span>
@@ -316,7 +289,7 @@ const AutoplayCarousel = () => {
             <div className="services-box">
               <span>
                 <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon2.png"
+                  src={ElectricianIcon}
                   alt="Alt Tag for Services meta image2"
                 />
               </span>

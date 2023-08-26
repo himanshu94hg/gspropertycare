@@ -11,7 +11,7 @@ const CallingFeature = () => {
             <div className="callnow-content d-flex">
               <div className="call-left d-flex flex-column">
                 <p>Emergency Service One Call Us</p>
-                <h2>8005 12 2050 </h2>
+                <h2>08 8444 0442 </h2>
                 <a href="/" className="theme_yellow_button width-content-fit">
                   <i class="fa-solid fa-phone"></i>
                   Call now

@@ -234,10 +234,12 @@ const Footer = () => {
                         <h3 className="widget-title">About Us</h3>
                         <div className="textwidget">
                           <p>
-                            Te obtinuit ut adepto satis somno. Aliisque
-                            institoribus iter deliciae vivet vita. Nam exempli
-                            gratia, quotiens ego vadam ad diversorum
-                            peregrinorum in mane ut effingo ex contractus
+                            GS Property Care unites experienced specialists
+                            across fields, committed to addressing household
+                            needs. Services encompass cleaning, maintenance,
+                            plumbing, gardening, and more. Our nationwide reach
+                            distinguishes us as Australia's favored choice.
+                            Discover our differentiating factors.
                           </p>
                         </div>
                       </aside>
@@ -253,24 +255,24 @@ const Footer = () => {
                           <p className="location">
                             <i className="fas fa-map-marker-alt" />
                             <span className="contact-text">
-                              123 6th Eighth Avenue,FL32904, New York
+                              22 Gray St, Plympton SA 5038, Australia
                             </span>
                           </p>
                           <p className="phone">
                             <i className="fas fa-phone-volume" />
-                            <span className="contact-text">0123645798</span>
+                            <span className="contact-text">08 8444 0442</span>
                           </p>
                           <p className="email">
                             <i className="far fa-envelope" />
                             <span className="contact-text">
-                              contact@cleaningservices.com
-                              cleaningservices@gmail.com
+                              quotes@gsbondcleaning.com.au
+                              gsbondcleaning@gmail.com
                             </span>
                           </p>
                           <p className="time">
                             <i className="far fa-clock" />
                             <span className="contact-text">
-                              Mon - Sun : 9 am
+                              Open All 7 Days: 7:00 am - 7:00 pm
                             </span>
                           </p>
                         </aside>

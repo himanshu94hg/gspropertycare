@@ -1,0 +1,10 @@
+.form-container {
+  margin-block: 180px;
+  @media (max-width: 991px) {
+    margin-block: 50px;
+  }
+}
+.Form-row input,
+.Form-row label {
+  width: 100%;
+}

@@ -38,10 +38,10 @@ const News = () => {
                   <a href="/">BLOG TITLE NUMBER 1</a>
                 </h5>
                 <div className="news-text">
-                  Te obtinuit ut adepto satis somno. Aliisque institoribus iter
-                  deliciae vivet vita. Nam exempli gratia, quotiens ego vadam ad
-                  diversorum peregrinorum in mane ut effingo ex contractus, hi
-                  viri qui sedebat ibi usque semper illis
+                  Ensuring adequate sleep is crucial. In contrast, he enjoys a
+                  lavish lifestyle. For instance, whenever I visit foreign
+                  colleagues early in the morning to transcribe contracts, those
+                  men remain seated, unfailingly.
                 </div>
                 <div className="news-icon-box">
                   <div className="row">

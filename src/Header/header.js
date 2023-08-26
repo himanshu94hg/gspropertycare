@@ -2,6 +2,7 @@ import { FiMenu } from "react-icons/fi";
 import "./header.css";
 import Logo from "../Logo/Logo";
 import QueryForm from "./QueryForm";
+import MobileLogo from "../Logo/MobileLogo";
 
 const Header = () => {
   const handleForm = () => {
@@ -48,16 +49,25 @@ const Header = () => {
                   <div className="container lower-header">
                     <div className="nav_wrap">
                       <div className="main-header-box">
-                        <div className="row header-app-button align-items-center">
-                          <div className="col-lg-3 col-md-6 col logo-div">
+                        <div className="row header-app-button align-items-center justify-content-between">
+                          <div className="col-lg-2 col-md-6 col logo-div">
                             <div className="logo text-left">
                               <a
                                 href="/"
-                                className="custom-logo-link"
+                                className="custom-logo-link logoLarge"
                                 rel="home"
                                 aria-current="page"
                               >
                                 <Logo />
+                              </a>
+
+                              <a
+                                href="/"
+                                className="custom-logo-link smallLogo"
+                                rel="home"
+                                aria-current="page"
+                              >
+                                <MobileLogo />
                               </a>
                               <div className="logo-text"></div>
                             </div>
@@ -125,7 +135,7 @@ const Header = () => {
                               </a>
                             </div>
                           </div>
-                          <div className="col-lg-3 col-md-6 col-sm-6 header-button">
+                          <div className="col-lg-4 col-md-6 col-sm-6 header-button">
                             <button
                               className="theme_blue_button"
                               onClick={handleForm}
@@ -137,8 +147,8 @@ const Header = () => {
                               </span>
                             </button>
                           </div>
-                          <div className="col-lg-3 col-md-6 col-sm-6 hamberger-icon text-right">
-                            <FiMenu size={24} />
+                          <div className="col-lg-1 col-md-6 col-sm-6 hamberger-icon text-right">
+                            <FiMenu size={24} color="#fff" />
                           </div>
                         </div>
 

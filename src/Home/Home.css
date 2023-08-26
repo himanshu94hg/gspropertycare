@@ -3,7 +3,7 @@
 }
 
 #slider .slide_nav i:hover,
-#about-us .about-head:after,
+#about-us .about-head h3:after,
 .block_head h3:after,
 #our-services .services-box span,
 #our-services .box-content span,
@@ -22,6 +22,7 @@
 
 #slider img {
   width: 100%;
+  opacity: 0.5;
 }
 
 #slider .slider-box .smalltext {
@@ -178,14 +179,14 @@
   border-color: var(--yellow);
 }
 
-#our-features,
+/* #our-features,
 #about-us {
   background-color: var(--color16);
-}
+} */
 
-#our-features {
+/* #our-features {
   background-color: #e4eaf1;
-}
+} */
 
 #our-features h3 a,
 .feature_box2 h5 a,
@@ -244,6 +245,7 @@
   letter-spacing: 1px;
   font-size: 24px;
   font-weight: 800;
+  white-space: nowrap;
 }
 
 .section_main_head small {
@@ -252,14 +254,20 @@
   color: var(--color11);
 }
 
-#about-us .about-head:after {
+#about-us .about-head .media svg {
+  min-width: 105px;
+}
+
+#about-us .about-head h3:after {
   content: "";
-  display: block;
+  width: 80px;
   height: 3px;
-  left: 94px;
-  position: relative;
-  top: -3px;
-  width: 200px;
+  display: block;
+  margin: 20px auto 0;
+}
+
+#about-us .about-title {
+  margin-top: 13px;
 }
 
 #about-us .about-text {
@@ -294,6 +302,10 @@
   background-color: #fff;
   padding: 20px;
   text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #our-services .services-box h5 a,
@@ -301,13 +313,13 @@
   font: 700 18px var(--common-font-p);
 }
 
-#our-services .services-box span {
+#our-services .services-box > span {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  display: inline-block;
-  padding: 14px 10px;
+  display: flex;
   margin-top: -50px;
+  margin-inline: auto;
 }
 
 #our-services .box h5 {
@@ -326,12 +338,11 @@
   color: #fff;
 }
 
-#our-services .box-content span {
+#our-services .box-content > span {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  display: inline-block;
-  padding: 14px 10px;
+  display: flex;
   margin-top: -50px;
 }
 
@@ -357,6 +368,9 @@
   opacity: 0;
   z-index: 1;
   transition: all 0.5s ease 0s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #our-services .box:hover .box-content {
@@ -1073,4 +1087,22 @@
 }
 .width-content-fit {
   width: fit-content;
+}
+button.theme_yellow_button {
+  border: none;
+}
+button.theme_yellow_button:hover {
+  background-color: var(--blue);
+  color: #fff !important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+#our-services .box-content span img,
+#our-services .services-box span img {
+  width: 57%;
+  margin: auto;
+  filter: invert(1);
 }

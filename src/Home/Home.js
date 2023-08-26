@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 import Features from "./features";
 import heroBG from "../assets/img/hero-bg3.webp";
 import heroBGTwo from "../assets/img/hero-bg3.jpg";
@@ -10,6 +11,13 @@ import News from "../News/News";
 import CallingFeature from "./CallingFeature/CallingFeature";
 
 const Home = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <section id="slider">
@@ -38,23 +46,23 @@ const Home = () => {
                             Flawless Homes: Simplifying Cleaning & Maintenance!
                           </p>
                         </div>
-                        <a
+                        <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_yellow_button mr-4"
-                          href="/"
+                          onClick={() => scrollToSection("about-us")}
                         >
                           <i className="fas fa-chevron-right"></i>
                           READ MORE
-                        </a>
-                        <a
+                        </button>
+                        <Link
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_blue_button"
-                          href="/"
+                          to="/form"
                         >
                           <i className="far fa-calendar-alt"></i>
                           BOOK AN APPOINTMENT
                           <span className="screen-reader-text">
                             video button
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -110,23 +118,23 @@ const Home = () => {
                             Sparkling Homes!
                           </p>
                         </div>
-                        <a
+                        <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_yellow_button mr-4"
-                          href="/"
+                          onClick={() => scrollToSection("about-us")}
                         >
                           <i className="fas fa-chevron-right"></i>
                           READ MORE
-                        </a>
-                        <a
+                        </button>
+                        <Link
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_blue_button"
-                          href="/"
+                          to="/form"
                         >
                           <i className="far fa-calendar-alt"></i>
                           BOOK AN APPOINTMENT
                           <span className="screen-reader-text">
                             video button
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -182,23 +190,23 @@ const Home = () => {
                             & Maintenance Services!
                           </p>
                         </div>
-                        <a
+                        <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_yellow_button mr-4"
-                          href="/"
+                          onClick={() => scrollToSection("about-us")}
                         >
                           <i className="fas fa-chevron-right"></i>
                           READ MORE
-                        </a>
-                        <a
+                        </button>
+                        <Link
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_blue_button"
-                          href="/"
+                          to="/form"
                         >
                           <i className="far fa-calendar-alt"></i>
                           BOOK AN APPOINTMENT
                           <span className="screen-reader-text">
                             video button
                           </span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

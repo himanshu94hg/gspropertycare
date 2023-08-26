@@ -9,9 +9,15 @@ const QueryForm = () => {
         className="search-form serach-page"
         action="https://www.vwthemesdemo.com/vw-cleaning-company-pro/"
       >
-        <div className="Form-row" style={{ gap: "10px" }}>
+        <h3>Tell us more!</h3>
+        <p>
+          Kindly complete this form, and you'll receive an email containing a
+          service estimate. Our representative will be in touch with you
+          shortly!
+        </p>
+        <div className="Form-row" style={{ gap: "70px" }}>
           <label>
-            First Name
+            {/* First Name */}
             <input
               type="search"
               className="search-field"
@@ -22,7 +28,7 @@ const QueryForm = () => {
           </label>
 
           <label>
-            Last Name
+            {/* Last Name */}
             <input
               type="search"
               className="search-field"
@@ -34,7 +40,7 @@ const QueryForm = () => {
         </div>
         <div className="Form-row">
           <label>
-            Email
+            {/* Email */}
             <input
               type="search"
               className="search-field"
@@ -47,7 +53,7 @@ const QueryForm = () => {
 
         <div className="Form-row">
           <label>
-            Phone Number
+            {/* Phone Number */}
             <input
               type="search"
               className="search-field"
@@ -59,11 +65,11 @@ const QueryForm = () => {
         </div>
         <div className="Form-row">
           <label>
-            Message
+            {/* Message */}
             <textarea
               type="search"
               className="search-field"
-              placeholder="Enter your message"
+              placeholder="Tell us more about your required service!"
               defaultValue=""
               name="s"
             />
