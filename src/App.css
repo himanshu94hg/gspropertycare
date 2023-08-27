@@ -2225,3 +2225,14 @@ a {
   flex-direction: column;
   align-items: center;
 }
+
+input.search-field.date {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+input,
+select {
+  min-height: 50px;
+}

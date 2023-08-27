@@ -232,6 +232,11 @@
   .custom_cls {
     margin-top: 0;
   }
+
+  .Form-row {
+    flex-direction: column;
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 575.5px) {

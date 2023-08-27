@@ -15,36 +15,13 @@ const QueryForm = () => {
           service estimate. Our representative will be in touch with you
           shortly!
         </p>
-        <div className="Form-row" style={{ gap: "70px" }}>
-          <label>
-            {/* First Name */}
-            <input
-              type="search"
-              className="search-field"
-              placeholder="Enter your first name"
-              defaultValue=""
-              name="s"
-            />
-          </label>
-
-          <label>
-            {/* Last Name */}
-            <input
-              type="search"
-              className="search-field"
-              placeholder="Enter your last name"
-              defaultValue=""
-              name="s"
-            />
-          </label>
-        </div>
         <div className="Form-row">
           <label>
-            {/* Email */}
+            {/*  Name */}
             <input
               type="search"
               className="search-field"
-              placeholder="Enter your email"
+              placeholder="Enter your name"
               defaultValue=""
               name="s"
             />
@@ -62,7 +39,45 @@ const QueryForm = () => {
               name="s"
             />
           </label>
+          <label>
+            {/* Email */}
+            <input
+              type="search"
+              className="search-field"
+              placeholder="Enter your email"
+              defaultValue=""
+              name="s"
+            />
+          </label>
         </div>
+        <div className="Form-row">
+          <label for="Services">
+            <select name="services" id="services">
+              <option value="Select a service">Select a service</option>
+              <option value="Care Removals">Care Removals</option>
+              <option value="Care Bond Cleaning">Care Bond Cleaning</option>
+              <option value="Care Care Cleaning">Care Care Cleaning</option>
+              <option value="Care Tiles Grout Cleaning">
+                Care Tiles Grout Cleaning
+              </option>
+              <option value="Care Handyman">Care Handyman</option>
+              <option value="Care Plumbers">Care Plumbers</option>
+              <option value="Care Gardening">Care Gardening</option>
+              <option value="Care Electrician">Care Electrician</option>
+              <option value="Care Locksmith">Care Locksmith</option>
+            </select>
+          </label>
+          <label>
+            {/* Date */}
+            <input
+              type="date"
+              className="search-field date"
+              defaultValue=""
+              name="s"
+            />
+          </label>
+        </div>
+
         <div className="Form-row">
           <label>
             {/* Message */}

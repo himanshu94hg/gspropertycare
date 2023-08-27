@@ -771,8 +771,12 @@ button.theme_blue_button {
 }
 .Form-row {
   display: flex;
-  margin-top: 25px;
 }
+
+.Form-row label {
+  padding: 10px 20px;
+}
+
 .smallLogo {
   display: none;
 }
@@ -783,4 +787,13 @@ button.theme_blue_button {
 .header-button {
   display: flex;
   justify-content: flex-end;
+}
+
+.media.call-icon {
+  align-items: center;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  width: 20px;
+  height: 20px;
 }
