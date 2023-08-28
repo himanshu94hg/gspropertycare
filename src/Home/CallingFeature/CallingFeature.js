@@ -13,7 +13,7 @@ const CallingFeature = () => {
                 <p>Emergency Service One Call Us</p>
                 <h2>08 8444 0442 </h2>
                 <a href="/" className="theme_yellow_button width-content-fit">
-                  <i class="fa-solid fa-phone"></i>
+                  <i className="fa-solid fa-phone"></i>
                   Call now
                 </a>
               </div>

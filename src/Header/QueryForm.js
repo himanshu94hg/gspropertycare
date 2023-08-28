@@ -7,14 +7,16 @@ const QueryForm = () => {
         role="search"
         method="get"
         className="search-form serach-page"
-        action="https://www.vwthemesdemo.com/vw-cleaning-company-pro/"
+        action=""
       >
-        <h3>Tell us more!</h3>
-        <p>
-          Kindly complete this form, and you'll receive an email containing a
-          service estimate. Our representative will be in touch with you
-          shortly!
-        </p>
+        <div className="Form-header">
+          <h3>Tell us more!</h3>
+          <p>
+            Kindly complete this form, and you'll receive an email containing a
+            service estimate. Our representative will be in touch with you
+            shortly!
+          </p>
+        </div>
         <div className="Form-row">
           <label>
             {/*  Name */}
@@ -23,7 +25,17 @@ const QueryForm = () => {
               className="search-field"
               placeholder="Enter your name"
               defaultValue=""
-              name="s"
+              name="fname"
+            />
+          </label>
+          <label>
+            {/*  Name */}
+            <input
+              type="search"
+              className="search-field"
+              placeholder="Enter your name"
+              defaultValue=""
+              name="lname"
             />
           </label>
         </div>
@@ -36,7 +48,7 @@ const QueryForm = () => {
               className="search-field"
               placeholder="Enter your phone number"
               defaultValue=""
-              name="s"
+              name="phone"
             />
           </label>
           <label>
@@ -46,13 +58,13 @@ const QueryForm = () => {
               className="search-field"
               placeholder="Enter your email"
               defaultValue=""
-              name="s"
+              name="email"
             />
           </label>
         </div>
         <div className="Form-row">
-          <label for="Services">
-            <select name="services" id="services">
+          <label htmlFor="Services">
+            <select className="search-field" name="services" id="services">
               <option value="Select a service">Select a service</option>
               <option value="Care Removals">Care Removals</option>
               <option value="Care Bond Cleaning">Care Bond Cleaning</option>
@@ -73,7 +85,7 @@ const QueryForm = () => {
               type="date"
               className="search-field date"
               defaultValue=""
-              name="s"
+              name="jobdate"
             />
           </label>
         </div>
@@ -86,7 +98,7 @@ const QueryForm = () => {
               className="search-field"
               placeholder="Tell us more about your required service!"
               defaultValue=""
-              name="s"
+              name="message"
             />
           </label>
         </div>

@@ -2236,3 +2236,8 @@ input,
 select {
   min-height: 50px;
 }
+
+input:focus-visible,
+select:focus-visible {
+  outline: none;
+}

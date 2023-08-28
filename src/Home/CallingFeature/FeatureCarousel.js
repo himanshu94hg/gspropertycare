@@ -25,7 +25,7 @@ const FeatureCarousel = () => {
             <div className="our-record-box">
               <div className="media mb-3">
                 <div>
-                  <i class="fa-regular fa-face-smile"></i>
+                  <i className="fa-regular fa-face-smile"></i>
                 </div>
                 <p>Happy Customers </p>
               </div>
@@ -42,7 +42,7 @@ const FeatureCarousel = () => {
             <div className="our-record-box">
               <div className="media mb-3">
                 <div>
-                  <i class="fa-solid fa-house"></i>
+                  <i className="fa-solid fa-house"></i>
                 </div>
                 <p>Projects Completed </p>
               </div>
@@ -59,7 +59,7 @@ const FeatureCarousel = () => {
             <div className="our-record-box">
               <div className="media mb-3">
                 <div>
-                  <i class="fa-solid fa-screwdriver-wrench"></i>
+                  <i className="fa-solid fa-screwdriver-wrench"></i>
                 </div>
                 <p>Years Experience </p>
               </div>
@@ -75,7 +75,7 @@ const FeatureCarousel = () => {
             <div className="our-record-box">
               <div className="media mb-3">
                 <div>
-                  <i class="fa-regular fa-face-smile"></i>
+                  <i className="fa-regular fa-face-smile"></i>
                 </div>
                 <p>Happy Customers </p>
               </div>
@@ -92,7 +92,7 @@ const FeatureCarousel = () => {
             <div className="our-record-box">
               <div className="media mb-3">
                 <div>
-                  <i class="fa-solid fa-house"></i>
+                  <i className="fa-solid fa-house"></i>
                 </div>
                 <p>Projects Completed </p>
               </div>
@@ -109,7 +109,7 @@ const FeatureCarousel = () => {
             <div className="our-record-box">
               <div className="media mb-3">
                 <div>
-                  <i class="fa-solid fa-screwdriver-wrench"></i>
+                  <i className="fa-solid fa-screwdriver-wrench"></i>
                 </div>
                 <p>Years Experience </p>
               </div>

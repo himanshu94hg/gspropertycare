@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import Features from "./features";
@@ -9,8 +9,12 @@ import AboutUs from "./AboutUs/AboutUs";
 import AutoplayCarousel from "./OurServices/AutoplayCarousel";
 import News from "../News/News";
 import CallingFeature from "./CallingFeature/CallingFeature";
+import Header from "../Header/header";
+import QueryForm from "../Header/QueryForm";
 
 const Home = () => {
+  const [formOpen, setFormOpen] = useState(false);
+
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -18,8 +22,18 @@ const Home = () => {
     }
   };
 
+  const handleForm = () => {
+    setFormOpen(!formOpen);
+    console.log(formOpen);
+  };
+
+  // const handleFormClose = () => {
+  //   setFormOpen(false);
+  // };
+
   return (
     <>
+      <Header handleForm={handleForm} />
       <section id="slider">
         <div
           id="carouselindicators"
@@ -271,6 +285,16 @@ const Home = () => {
       <AboutUs />
       <CallingFeature />
       <News />
+      <div
+        className={`container form-container-main-close ${
+          formOpen ? "form-container-main-open" : ""
+        }`}
+      >
+        <button onClick={handleForm} class="btn-close">
+          <span class="close">&times;</span>
+        </button>
+        <QueryForm />
+      </div>
     </>
   );
 };

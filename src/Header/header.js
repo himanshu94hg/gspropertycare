@@ -4,14 +4,7 @@ import Logo from "../Logo/Logo";
 import QueryForm from "./QueryForm";
 import MobileLogo from "../Logo/MobileLogo";
 
-const Header = () => {
-  const handleForm = () => {
-    document.getElementById("serach_outer").style.top = "0em";
-  };
-
-  const handleFormClose = () => {
-    document.getElementById("serach_outer").style.top = "-55em";
-  };
+const Header = (props) => {
   return (
     <>
       <div className="home">
@@ -138,7 +131,7 @@ const Header = () => {
                           <div className="col-lg-4 col-md-6 col-sm-6 header-button">
                             <button
                               className="theme_blue_button"
-                              onClick={handleForm}
+                              onClick={props.handleForm}
                             >
                               <i className="far fa-calendar-alt"></i>
                               BOOK AN APPOINTMENT
@@ -243,7 +236,10 @@ const Header = () => {
                           </div>
 
                           <div className="serach_outer" id="serach_outer">
-                            <div onClick={handleFormClose} className="closepop">
+                            <div
+                              onClick={props.handleFormClose}
+                              className="closepop"
+                            >
                               <i className="far fa-window-close" />
                             </div>
                             <div className="serach_inner search_popup">
