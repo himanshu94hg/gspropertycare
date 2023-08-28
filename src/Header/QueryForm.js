@@ -1,4 +1,5 @@
 import React from "react";
+import MobileLogo from "../Logo/MobileLogo";
 
 const QueryForm = () => {
   return (
@@ -10,12 +11,16 @@ const QueryForm = () => {
         action=""
       >
         <div className="Form-header">
-          <h3>Tell us more!</h3>
-          <p>
-            Kindly complete this form, and you'll receive an email containing a
-            service estimate. Our representative will be in touch with you
-            shortly!
-          </p>
+          <div className="logo-div">
+            <MobileLogo />
+          </div>
+          <div>
+            <h3>Tell us more!</h3>
+            <p>
+              Kindly complete this form and our representative will be in touch
+              with you shortly!
+            </p>
+          </div>
         </div>
         <div className="Form-row">
           <label>

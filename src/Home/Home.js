@@ -286,7 +286,7 @@ const Home = () => {
       <CallingFeature />
       <News />
       <div
-        className={`container form-container-main-close ${
+        className={`form-container-main-close ${
           formOpen ? "form-container-main-open" : ""
         }`}
       >

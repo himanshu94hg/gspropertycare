@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="container footer-cols">
                   <section
                     id="our-brands"
-                    style={{ backgroundColor: "#006ccc" }}
+                    style={{ backgroundColor: "var(--blue)" }}
                     className=""
                     data-loops="true"
                     data-speed={3000}

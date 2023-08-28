@@ -72,6 +72,7 @@ amp-sidebar#sidebar1 {
 
 .serach-page select.search-field {
   padding-right: 10px;
+  color: var(--color14);
 }
 
 .search_popup input.search-submit {
@@ -797,20 +798,4 @@ button.theme_blue_button {
 
 .media.call-icon {
   align-items: center;
-}
-
-.Form-header {
-  margin-inline: 20px;
-  margin-top: 35px;
-}
-
-button.btn-close {
-  position: absolute;
-  right: 25px;
-  top: 36px;
-  border: none;
-  background: none;
-}
-button.btn-close span.close {
-  font-size: 30px;
 }

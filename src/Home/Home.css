@@ -1115,6 +1115,7 @@ button.theme_yellow_button:hover {
   background: #fff;
   z-index: 99;
   transition: 0.5s;
+  box-shadow: 16px 0px 20px 20px #252525;
 }
 
 .form-container-main-open {
@@ -1126,6 +1127,32 @@ button.theme_yellow_button:hover {
   @media (max-width: 991px) {
     margin-block: 50px;
   }
+}
+
+.Form-header {
+  padding-inline: 20px;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: row;
+  background: var(--blue);
+  color: #fff;
+  margin-bottom: 30px;
+}
+.Form-header h3 {
+  color: #fff;
+}
+
+button.btn-close {
+  position: absolute;
+  right: 25px;
+  top: 36px;
+  border: none;
+  background: none;
+}
+button.btn-close span.close {
+  font-size: 30px;
+  color: #fff;
+  opacity: 1;
 }
 .Form-row input,
 .Form-row label {

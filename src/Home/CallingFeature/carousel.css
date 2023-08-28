@@ -55,7 +55,7 @@
   font-size: 48px;
   margin-top: 6px;
   margin-right: 10px;
-  color: #006ccc;
+  color: var(--blue);
 }
 
 .our-record-box:hover i {
