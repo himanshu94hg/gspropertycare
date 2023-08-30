@@ -10,8 +10,6 @@ const QueryForm = () => {
     setOrderForm({...orderForm,[e.target.name]:e.target.value});
   }
 
-  console.log(orderForm);
-
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     
@@ -19,7 +17,6 @@ const QueryForm = () => {
 
         let res = await fetch("http://43.205.214.16/api/add/order", {
           method: "POST",
-          // cache: "no-cache",
           headers:{
               'Accept' : 'application/json',
               "Content-Type": "application/json"
@@ -28,7 +25,6 @@ const QueryForm = () => {
         });
         let resJson = await res.json();
 
-        // setOrderForm("");
         if (resJson.status === 200) {
           // setMessage("Appointment submitted successfully");
         } else {
@@ -41,8 +37,6 @@ const QueryForm = () => {
             message : resJson.errors.message, 
             jobdate : resJson.errors.jobdate
           });
-
-          console.log(errs);
         }
 
     } catch (err) {
