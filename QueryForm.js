@@ -3,23 +3,26 @@ import MobileLogo from "../Logo/MobileLogo";
 
 const QueryForm = () => {
 
-  const [orderForm, setOrderForm] = useState({fname:'', lname: '', email: '', phone: '', jobdate: '', message: '', services: ''});
+  const [orderForm, setOrderForm] = useState({"fname":'', "lname": '', "email": '', "phone": '', "jobdate": '', "message": '', "services": ''});
   const [errs, setErrs] = useState({fname:'', email: '', phone: '', message: '', services: '', jobdate: '' });
 
   const onChangeOrderForm = (e) => {
     setOrderForm({...orderForm,[e.target.name]:e.target.value});
   }
 
+  console.log(orderForm);
+
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     
     try{
 
-        let res = await fetch("http://3.6.41.30/api/add/order", {
+        let res = await fetch("http://43.205.214.16/api/add/order", {
           method: "POST",
-          cache: "no-cache",
+          // cache: "no-cache",
           headers:{
-              "content_type": "application/json"
+              'Accept' : 'application/json',
+              "Content-Type": "application/json"
           },
           body: JSON.stringify(orderForm)
         });
