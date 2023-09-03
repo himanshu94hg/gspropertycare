@@ -1280,8 +1280,7 @@ a {
   #how-we-work .process-box span:after,
   #footer ul li:before,
   #slider a.theme_yellow_button,
-  #slider button.theme_yellow_button,
-  #slider button.theme_blue_button {
+  #slider button.theme_yellow_button {
     display: none;
   }
 

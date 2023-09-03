@@ -237,6 +237,13 @@
     flex-direction: column;
     margin-top: 0;
   }
+  .Form-row select,
+  .Form-row textarea {
+    width: 97%;
+  }
+  .search-form.serach-page {
+    overflow-y: scroll;
+  }
 }
 
 @media screen and (max-width: 575.5px) {
@@ -739,6 +746,25 @@
   .smallLogo {
     display: block;
   }
+
+  .form-container-main-close {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Form-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Form-header .logo-div {
+    width: auto;
+  }
+  .heading-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1089,5 +1115,11 @@
   }
   #footer {
     margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section_main_head h3 {
+    font-size: 16px;
   }
 }

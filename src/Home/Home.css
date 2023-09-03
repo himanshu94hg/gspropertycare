@@ -1110,7 +1110,7 @@ button.theme_yellow_button:hover {
   position: fixed;
   top: 0;
   right: -100em;
-  width: 70vw;
+  width: 45vw;
   height: 100vh;
   background: #fff;
   z-index: 99;
@@ -1137,6 +1137,7 @@ button.theme_yellow_button:hover {
   background: var(--blue);
   color: #fff;
   margin-bottom: 30px;
+  position: sticky;
 }
 .Form-header h3 {
   color: #fff;
@@ -1144,10 +1145,11 @@ button.theme_yellow_button:hover {
 
 button.btn-close {
   position: absolute;
-  right: 25px;
+  right: 11px;
   top: 36px;
   border: none;
   background: none;
+  z-index: 99;
 }
 button.btn-close span.close {
   font-size: 30px;
@@ -1177,12 +1179,10 @@ select * {
   background: #fff;
 }
 
-button.btn-close {
-  position: absolute;
-  right: 36px;
-  top: 36px;
-}
-
 button.search-submit {
   margin: 10px 20px;
+}
+
+.search-form.serach-page {
+  height: 100vh;
 }

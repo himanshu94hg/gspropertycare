@@ -1,7 +1,6 @@
 import { FiMenu } from "react-icons/fi";
 import "./header.css";
 import Logo from "../Logo/Logo";
-import QueryForm from "./QueryForm";
 import MobileLogo from "../Logo/MobileLogo";
 
 const Header = (props) => {
@@ -232,18 +231,6 @@ const Header = (props) => {
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-
-                          <div className="serach_outer" id="serach_outer">
-                            <div
-                              onClick={props.handleFormClose}
-                              className="closepop"
-                            >
-                              <i className="far fa-window-close" />
-                            </div>
-                            <div className="serach_inner search_popup">
-                              <QueryForm />
                             </div>
                           </div>
                         </div>

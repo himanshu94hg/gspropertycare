@@ -1,7 +1,7 @@
 import React from "react";
 import "../Header/header.css";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <>
       <>
@@ -442,8 +442,8 @@ const Footer = () => {
                           </a>
                         </div>
                       </div>
-                      <a
-                        href="#topbar"
+                      <button
+                        onClick={() => props.scrollToSection("topbar")}
                         id="return-to-top"
                         style={{ display: "inline" }}
                       >
@@ -451,7 +451,7 @@ const Footer = () => {
                         <span className="screen-reader-text">
                           copywrite text
                         </span>
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </div>

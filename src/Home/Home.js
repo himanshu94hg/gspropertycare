@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
 import Features from "./features";
 import heroBG from "../assets/img/hero-bg3.webp";
 import heroBGTwo from "../assets/img/hero-bg3.jpg";
@@ -11,16 +10,10 @@ import News from "../News/News";
 import CallingFeature from "./CallingFeature/CallingFeature";
 import Header from "../Header/header";
 import QueryForm from "../Header/QueryForm";
+// import $ from "jquery";
 
-const Home = () => {
+const Home = (props) => {
   const [formOpen, setFormOpen] = useState(false);
-
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   const handleForm = () => {
     setFormOpen(!formOpen);
@@ -30,6 +23,16 @@ const Home = () => {
   // const handleFormClose = () => {
   //   setFormOpen(false);
   // };
+
+  // $(window).scroll(function () {
+  //   if (window.innerWidth < 750) {
+  //     if ($(this).scrollTop() > 100) {
+  //       $(".btn-close").hide(1000);
+  //     } else {
+  //       $(".btn-close").show(1000);
+  //     }
+  //   }
+  // });
 
   return (
     <>
@@ -62,21 +65,21 @@ const Home = () => {
                         </div>
                         <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_yellow_button mr-4"
-                          onClick={() => scrollToSection("about-us")}
+                          onClick={() => props.scrollToSection("about-us")}
                         >
                           <i className="fas fa-chevron-right"></i>
                           READ MORE
                         </button>
-                        <Link
+                        <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_blue_button"
-                          to="/form"
+                          onClick={handleForm}
                         >
                           <i className="far fa-calendar-alt"></i>
                           BOOK AN APPOINTMENT
                           <span className="screen-reader-text">
                             video button
                           </span>
-                        </Link>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -134,21 +137,21 @@ const Home = () => {
                         </div>
                         <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_yellow_button mr-4"
-                          onClick={() => scrollToSection("about-us")}
+                          onClick={() => props.scrollToSection("about-us")}
                         >
                           <i className="fas fa-chevron-right"></i>
                           READ MORE
                         </button>
-                        <Link
+                        <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_blue_button"
-                          to="/form"
+                          onClick={handleForm}
                         >
                           <i className="far fa-calendar-alt"></i>
                           BOOK AN APPOINTMENT
                           <span className="screen-reader-text">
                             video button
                           </span>
-                        </Link>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -206,21 +209,21 @@ const Home = () => {
                         </div>
                         <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_yellow_button mr-4"
-                          onClick={() => scrollToSection("about-us")}
+                          onClick={() => props.scrollToSection("about-us")}
                         >
                           <i className="fas fa-chevron-right"></i>
                           READ MORE
                         </button>
-                        <Link
+                        <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_blue_button"
-                          to="/form"
+                          onClick={handleForm}
                         >
                           <i className="far fa-calendar-alt"></i>
                           BOOK AN APPOINTMENT
                           <span className="screen-reader-text">
                             video button
                           </span>
-                        </Link>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -290,10 +293,7 @@ const Home = () => {
           formOpen ? "form-container-main-open" : ""
         }`}
       >
-        <button onClick={handleForm} class="btn-close">
-          <span class="close">&times;</span>
-        </button>
-        <QueryForm />
+        <QueryForm handleForm={handleForm} />
       </div>
     </>
   );

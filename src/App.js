@@ -6,14 +6,24 @@ import "animate.css";
 import "./mobile-main.css";
 
 function App() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <HashRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route
+            path="/"
+            element={<Home scrollToSection={scrollToSection} />}
+          />
         </Routes>
       </HashRouter>
-      <Footer />
+      <Footer scrollToSection={scrollToSection} />
     </>
   );
 }
