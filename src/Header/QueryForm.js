@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import MobileLogo from "../Logo/MobileLogo";
+import Swal from "sweetalert2";
+import "sweetalert2/src/sweetalert2.scss";
 
 const QueryForm = (props) => {
   const [orderForm, setOrderForm] = useState({
@@ -28,7 +30,7 @@ const QueryForm = (props) => {
     e.preventDefault();
 
     try {
-      let res = await fetch("http://43.205.214.16/api/add/order", {
+      let res = await fetch("https://arshadk.online/api/add/order", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -39,7 +41,10 @@ const QueryForm = (props) => {
       let resJson = await res.json();
 
       if (resJson.status === 200) {
-        // setMessage("Appointment submitted successfully");
+        Swal.fire("Good job!", "Your Appointment is booked!", "success");
+        setTimeout(() => {
+          window.location.reload();
+        }, 3000);
       } else {
         // setMessage("Something went wrong");
         setErrs({
@@ -150,18 +155,18 @@ const QueryForm = (props) => {
               id="services"
               onChange={onChangeOrderForm}
             >
-              <option value="Select a service">Select a service</option>
-              <option value="Care Removals">Care Removals</option>
-              <option value="Care Bond Cleaning">Care Bond Cleaning</option>
-              <option value="Care Care Cleaning">Care Care Cleaning</option>
-              <option value="Care Tiles Grout Cleaning">
+              <option value="">Select a service</option>
+              <option value="Care_removals">Care Removals</option>
+              <option value="Care_bond_cleaning">Care Bond Cleaning</option>
+              <option value="Care_care_cleaning">Care Care Cleaning</option>
+              <option value="Care_tiles_grout_cleaning">
                 Care Tiles Grout Cleaning
               </option>
-              <option value="Care Handyman">Care Handyman</option>
-              <option value="Care Plumbers">Care Plumbers</option>
-              <option value="Care Gardening">Care Gardening</option>
-              <option value="Care Electrician">Care Electrician</option>
-              <option value="Care Locksmith">Care Locksmith</option>
+              <option value="Care_handyman">Care Handyman</option>
+              <option value="Care_plumbers">Care Plumbers</option>
+              <option value="Care_gardening">Care Gardening</option>
+              <option value="Care_electrician">Care Electrician</option>
+              <option value="Care_locksmith">Care Locksmith</option>
             </select>
             {errs.services && (
               <small id="fname" className="form-text text-danger">
