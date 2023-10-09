@@ -2,8 +2,27 @@ import { FiMenu } from "react-icons/fi";
 import "./header.css";
 import Logo from "../Logo/Logo";
 import MobileLogo from "../Logo/MobileLogo";
+import { Link } from "react-router-dom";
+import SmallLogo from "../Logo/SmallLogo";
 
 const Header = (props) => {
+  const mobileNav = () => {
+    document.getElementById("mobile-Nav").style.right = "0em";
+  };
+
+  const closeMobileNav = () => {
+    document.getElementById("mobile-Nav").style.right = "-40em";
+  };
+
+  // const links = document.querySelectorAll("#mobile-Nav li");
+  // links.forEach((l) => {
+  //   // BIND CLICK EVENT ON ALL LINKS
+  //   l.addEventListener("click", () => {
+  //     // ON CLICK, REMOVE active CLASS FROM navBarLinks
+  //     document.getElementById("mobile-Nav").style.right = "-40em";
+  //   });
+  // });
+
   return (
     <>
       <div className="home">
@@ -44,23 +63,23 @@ const Header = (props) => {
                         <div className="row header-app-button align-items-center justify-content-between">
                           <div className="col-lg-2 col-md-6 col logo-div">
                             <div className="logo text-left">
-                              <a
-                                href="/"
+                              <Link
+                                to="/"
                                 className="custom-logo-link logoLarge"
                                 rel="home"
                                 aria-current="page"
                               >
                                 <Logo />
-                              </a>
+                              </Link>
 
-                              <a
-                                href="/"
+                              <Link
+                                to="/"
                                 className="custom-logo-link smallLogo"
                                 rel="home"
                                 aria-current="page"
                               >
                                 <MobileLogo />
-                              </a>
+                              </Link>
                               <div className="logo-text"></div>
                             </div>
                           </div>
@@ -140,7 +159,9 @@ const Header = (props) => {
                             </button>
                           </div>
                           <div className="col-lg-1 col-md-6 col-sm-6 hamberger-icon text-right">
-                            <FiMenu size={24} color="#fff" />
+                            <button onClick={mobileNav} className="ham-btn">
+                              <FiMenu size={24} color="#fff" />
+                            </button>
                           </div>
                         </div>
 
@@ -164,65 +185,125 @@ const Header = (props) => {
                                               id="menu-item-59"
                                               className="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-59"
                                             >
-                                              <a href="/" aria-current="page">
+                                              <Link to="/" aria-current="page">
                                                 Home
-                                              </a>
+                                              </Link>
                                             </li>
                                             <li
                                               id="menu-item-60"
                                               className="blog menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60"
                                             >
-                                              <a href="/" className="blogLink">
-                                                Blog
-                                              </a>
+                                              <Link
+                                                to="/Services"
+                                                className="blogLink"
+                                              >
+                                                Services
+                                              </Link>
                                               <ul className="sub-menu">
                                                 <li
                                                   id="menu-item-74"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"
                                                 >
-                                                  <a href="/">
-                                                    Blog Right Sidebar
-                                                  </a>
+                                                  <Link to="/services/1">
+                                                    Care Removals
+                                                  </Link>
                                                 </li>
                                                 <li
                                                   id="menu-item-75"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                                                 >
-                                                  <a href="/">
-                                                    Blog Left Sidebar
-                                                  </a>
+                                                  <Link to="/services/2">
+                                                    Care Bond Cleaning
+                                                  </Link>
+                                                </li>
+
+                                                <li
+                                                  id="menu-item-75"
+                                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
+                                                >
+                                                  <Link to="/services/3">
+                                                    Care Carpet Cleaning
+                                                  </Link>
+                                                </li>
+
+                                                <li
+                                                  id="menu-item-75"
+                                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
+                                                >
+                                                  <Link to="/services/4">
+                                                    Care Tiles Grout Cleaning
+                                                  </Link>
+                                                </li>
+
+                                                <li
+                                                  id="menu-item-75"
+                                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
+                                                >
+                                                  <Link to="/services/5">
+                                                    Care Handyman
+                                                  </Link>
+                                                </li>
+
+                                                <li
+                                                  id="menu-item-75"
+                                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
+                                                >
+                                                  <Link to="/services/6">
+                                                    Care Plumbers
+                                                  </Link>
+                                                </li>
+
+                                                <li
+                                                  id="menu-item-75"
+                                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
+                                                >
+                                                  <Link to="/services/7">
+                                                    Care Gardening
+                                                  </Link>
+                                                </li>
+
+                                                <li
+                                                  id="menu-item-75"
+                                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
+                                                >
+                                                  <Link to="/services/8">
+                                                    Care Electrician
+                                                  </Link>
+                                                </li>
+
+                                                <li
+                                                  id="menu-item-75"
+                                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
+                                                >
+                                                  <Link to="/services/9">
+                                                    Care Locksmith
+                                                  </Link>
                                                 </li>
                                               </ul>
                                             </li>
-                                            <li
-                                              id="menu-item-61"
-                                              className="page menu-item menu-item-type-custom menu-item-object-custom menu-item-61"
-                                            >
-                                              <a href="/">Page</a>
-                                            </li>
-                                            <li
-                                              id="menu-item-63"
-                                              className="services menu-item menu-item-type-custom menu-item-object-custom menu-item-63"
-                                            >
-                                              <a href="/">Services</a>
-                                            </li>
-                                            <li
-                                              id="menu-item-64"
-                                              className="work menu-item menu-item-type-custom menu-item-object-custom menu-item-64"
-                                            >
-                                              <a href="/">Work</a>
-                                            </li>
-                                            <li
-                                              id="menu-item-89"
-                                              className="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"
-                                            >
-                                              <a href="/">Clients</a>
-                                            </li>
+
                                             <li
                                               id="menu-item-73"
                                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"
                                             >
-                                              <a href="/">Contact</a>
+                                              <Link to="/AboutUs">
+                                                About Us
+                                              </Link>
+                                            </li>
+
+                                            <li
+                                              id="menu-item-73"
+                                              className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"
+                                            >
+                                              <button
+                                                onClick={() =>
+                                                  props.scrollToSection(
+                                                    "wpb_widget-1"
+                                                  )
+                                                }
+                                              >
+                                                Contact
+                                              </button>
                                             </li>
                                           </ul>
                                         </div>
@@ -242,6 +323,52 @@ const Header = (props) => {
             </div>
           </div>
         </div>
+      </div>
+      <div id="mobile-Nav" className="mobile-Nav" style={{ right: "-40em" }}>
+        <div className="logo-mobile-nav">
+          <SmallLogo />
+          <p>GS Property Care</p>
+        </div>
+        <nav id="site-navigation" className="main-navigation">
+          <div className="menu clearfix">
+            <ul id="menu-primary-menu" className="clearfix mobile_nav">
+              <li
+                onClick={closeMobileNav}
+                id="menu-item-59"
+                className="home menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-59"
+              >
+                <Link to="/" aria-current="page">
+                  Home
+                </Link>
+              </li>
+              <li
+                onClick={closeMobileNav}
+                id="menu-item-60"
+                className="blog menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60"
+              >
+                <Link to="/Services">Services</Link>
+              </li>
+
+              <li
+                onClick={closeMobileNav}
+                id="menu-item-73"
+                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"
+              >
+                <Link to="/AboutUs">About Us</Link>
+              </li>
+
+              <li
+                onClick={closeMobileNav}
+                id="menu-item-73"
+                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"
+              >
+                <button onClick={() => props.scrollToSection("wpb_widget-1")}>
+                  Contact
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </>
   );

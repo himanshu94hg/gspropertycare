@@ -18,6 +18,7 @@ import tilesIcon from "../../assets/img/services/icons/tiles.png";
 import PlumberIcon from "../../assets/img/services/icons/plumber.png";
 import GardeningIcon from "../../assets/img/services/icons/gardening.png";
 import ElectricianIcon from "../../assets/img/services/icons/electrician.png";
+import locksmithIcon from "../../assets/img/services/icons/locksmith.png";
 import "slick-carousel/slick/slick-theme.css";
 import SmallLogo from "../../Logo/SmallLogo";
 
@@ -62,8 +63,9 @@ const AutoplayCarousel = () => {
                 <a href="/">Care Removals</a>
               </h5>
               <div className="services-text">
-                Seamless Transitions, Stress-Free Moves: Your Home, Our
-                Expertise.
+                We believe that moving should be stress-free and we make it
+                possible for our customers. You get efficient and reliable
+                service that ensures a smooth transition to the new home.
               </div>
             </div>
             <div className="services-box">
@@ -93,8 +95,9 @@ const AutoplayCarousel = () => {
                 <a href="/">Care Bond Cleaning</a>
               </h5>
               <div className="services-text">
-                Transforming Spaces, Restoring Brilliance – Your Trusted Bond
-                Cleaning Partner.
+                Our experts in bond cleaning guarantee you secure the bond back
+                hassle-free with clean rental property which is cleaned with our
+                eco-friendly cleaning solutions.
               </div>
             </div>
             <div className="services-box">
@@ -153,7 +156,9 @@ const AutoplayCarousel = () => {
                 <a href="/">Care Tiles Grout Cleaning</a>
               </h5>
               <div className="services-text">
-                Revive Your Tiles: Grout Cleaning for Gleaming, Fresh Floors!
+                With tile and grout cleaning, you can restore the beauty of your
+                floors. It's time to say goodbye to stains and help to clean and
+                fresh surfaces.
               </div>
             </div>
             <div className="services-box">
@@ -213,7 +218,8 @@ const AutoplayCarousel = () => {
                 <a href="/">Care Plumbers</a>
               </h5>
               <div className="services-text">
-                Flow Solutions: Plumbing Excellence Delivered with Every Drop.
+                Plumbing issues can occur anytime and we aim to tackle the issue
+                promptly with our plumbing services.
               </div>
             </div>
             <div className="services-box">
@@ -246,7 +252,9 @@ const AutoplayCarousel = () => {
                 <a href="/">Care Gardening</a>
               </h5>
               <div className="services-text">
-                Cultivating Dreams, One Garden at a Time. Your Oasis Awaits.
+                Gardening maintenance is necessary to nurture your green spaces
+                and we can help you create beautiful outdoor environments for
+                you to relish.
               </div>
             </div>
             <div className="services-box">
@@ -282,8 +290,9 @@ const AutoplayCarousel = () => {
                 <a href="/">Care Electrician</a>
               </h5>
               <div className="services-text">
-                Powering Your World with Expert Electrical Solutions and Service
-                Excellence.
+                Our auto electrical experts can help keep your vehicle’s
+                electrical systems in top-notch condition. Our reliable
+                solutions can help you drive safely.
               </div>
             </div>
             <div className="services-box">
@@ -311,7 +320,7 @@ const AutoplayCarousel = () => {
             <div className="box-content">
               <span>
                 <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon1.png"
+                  src={locksmithIcon}
                   alt="Alt Tag for Services meta image3"
                 />
               </span>
@@ -319,14 +328,15 @@ const AutoplayCarousel = () => {
                 <a href="/">Care Locksmith</a>
               </h5>
               <div className="services-text">
-                Unlocking Solutions, Securing Peace: Your Trusted Locksmith
-                Partner.
+                We take security solutions seriously. Our locksmith solutions
+                offer peace of mind and you get lock installations to emergency
+                lockout assistance.
               </div>
             </div>
             <div className="services-box">
               <span>
                 <img
-                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/services/servicesicon1.png"
+                  src={locksmithIcon}
                   alt="Alt Tag for Services meta image3"
                 />
               </span>

@@ -175,7 +175,7 @@ amp-sidebar#sidebar1 {
   width: 100%;
   background: #fff;
   top: -37px;
-  padding: 15px 15px 0;
+  padding: 5px 15px 0;
   -webkit-box-shadow: 0 0 57px 0 rgba(0, 0, 0, 0.11);
   box-shadow: 0 0 57px 0 rgba(0, 0, 0, 0.11);
 }
@@ -279,20 +279,14 @@ amp-sidebar#sidebar1 {
   padding: 0 14px;
 }
 
-.main-navigation a {
+.main-navigation a,
+.main-navigation button {
   font: 500 14px var(--common-font-p);
   display: block;
   padding: 16px 13px;
   color: var(--color2);
-}
-
-.main-navigation a:hover {
-  transform: scale(1.2);
-}
-
-.main-navigation .blogLink:hover:after {
-  right: -4px;
-  transition: 0.5s;
+  border: none;
+  background: none;
 }
 
 .main-navigation ul ul {
@@ -554,8 +548,6 @@ a.closebtn {
 
 .copyright .copy-text {
   border-top: 1px solid #3a3a3a;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 #footer .about_me i {
@@ -673,7 +665,7 @@ a.closebtn {
 }
 
 #footer .footer-details {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   justify-content: space-around;
 }
 
@@ -717,15 +709,14 @@ a.closebtn {
 #footer .newsletter {
   align-items: center;
   border-top: 1px solid #3a3a3a;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-block: 30px;
 }
 
 #footer .newsletter h3 {
   font-size: 24px;
   letter-spacing: 2px;
   color: #fff;
-  padding-bottom: 10px;
+  padding-block: 0px;
 }
 
 #footer .newsletter p {
@@ -797,4 +788,55 @@ button.theme_blue_button {
 
 .media.call-icon {
   align-items: center;
+}
+
+.ham-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.mobile-Nav {
+  position: fixed;
+  z-index: 99;
+  right: -40em;
+  top: 0px;
+  background: #fff;
+  width: 350px;
+  transition: 0.2s;
+  padding: 5px;
+  box-shadow: -6px 5px 20px 0px #252525;
+}
+
+#mobile-Nav .mobile_nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#mobile-Nav .main-navigation li:before {
+  display: none;
+}
+
+.logo-mobile-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-mobile-nav p {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+  color: #fff;
+  background: var(--yellow);
+  padding: 2px 14px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#mobile-Nav #site-navigation {
+  margin-block: 25px;
+}
+
+#mobile-Nav .main-navigation button {
+  padding: 10px 13px;
 }

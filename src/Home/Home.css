@@ -9,7 +9,8 @@
 #our-services .box-content span,
 #our-team .owl-nav i,
 #pricing-plan .plan-info:nth-child(even) .img-verlay,
-#latest-news .news-button a {
+#latest-news .news-button a,
+.product-heading::after {
   background-color: var(--yellow);
 }
 
@@ -48,7 +49,8 @@
 #pricing-plan .plan-info:nth-child(even) .plan-price h2,
 #pricing-plan .plan-info:nth-child(even) .plan-price sub,
 #latest-news .news-box1 h5 a,
-#latest-news .news-button a {
+#latest-news .news-button a,
+.product-heading {
   color: var(--color5);
 }
 
@@ -241,7 +243,8 @@
   padding-bottom: 40px;
 }
 
-.section_main_head h3 {
+.section_main_head h3,
+.product-heading {
   letter-spacing: 1px;
   font-size: 24px;
   font-weight: 800;
@@ -290,7 +293,8 @@
   padding-bottom: 14px;
 }
 
-.block_head h3:after {
+.block_head h3:after,
+.product-heading:after {
   content: "";
   width: 80px;
   height: 3px;
@@ -1185,4 +1189,8 @@ button.search-submit {
 
 .search-form.serach-page {
   height: 100vh;
+}
+
+.outer-main {
+  color: inherit !important;
 }

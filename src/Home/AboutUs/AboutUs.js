@@ -1,6 +1,7 @@
 import React from "react";
 import SmallLogo from "../../Logo/SmallLogo";
 import AboutImage from "../../assets/img/about-img.webp";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
@@ -19,16 +20,15 @@ const AboutUs = () => {
                 </div>
               </div>
               <p className="about-text">
-                GS Property Care is a skilled team of experts covering various
-                fields, dedicated to addressing your household needs. From
-                cleaning and maintenance to repairs and services like plumbing,
-                gardening, and more, we enhance homes across Australia. With a
-                nationwide presence, we are the preferred choice for many
-                Australian households, standing out due to our excellence.
+                We are known as your trusted commercial and house cleaning
+                experts in Melbourne. We help you maintain a pristine
+                environment by specializing in cleaning solutions that help
+                transform your space and elevate standards with exceptional
+                cleaning services.
               </p>
-              <a className="theme_yellow_button" href="/">
+              <Link className="theme_yellow_button" to="/Services">
                 GET STARTED <i className="fas fa-chevron-right" />
-              </a>
+              </Link>
             </div>
             <div className="col-lg-6 col-md-12 about-image d-flex align-items-end">
               <img src={AboutImage} alt="about us heading" />

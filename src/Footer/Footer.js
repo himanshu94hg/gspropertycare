@@ -229,7 +229,7 @@ const Footer = (props) => {
                   </section>
                   {/* http://gspropertycare.com.au/ */}
                   <div className="row footer-details">
-                    <div className="col-lg-4 col-sm-6 footer1">
+                    <div className="col-lg-6 col-sm-6 footer1">
                       <aside id="text-2" className="widget widget_text">
                         <h3 className="widget-title">About Us</h3>
                         <div className="textwidget">
@@ -245,7 +245,7 @@ const Footer = (props) => {
                       </aside>
                     </div>
 
-                    <div className="col-lg-4 col-sm-6 footer3">
+                    <div className="col-lg-6 col-sm-6 footer3">
                       <div className="about_me">
                         <aside
                           id="wpb_widget-1"
@@ -444,6 +444,7 @@ const Footer = (props) => {
                       </div>
                       <button
                         onClick={() => props.scrollToSection("topbar")}
+                        // onClick={() => alert()}
                         id="return-to-top"
                         style={{ display: "inline" }}
                       >

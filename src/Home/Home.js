@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
 import Features from "./features";
 import heroBG from "../assets/img/hero-bg3.webp";
@@ -8,17 +8,15 @@ import AboutUs from "./AboutUs/AboutUs";
 import AutoplayCarousel from "./OurServices/AutoplayCarousel";
 import News from "../News/News";
 import CallingFeature from "./CallingFeature/CallingFeature";
-import Header from "../Header/header";
-import QueryForm from "../Header/QueryForm";
 // import $ from "jquery";
 
 const Home = (props) => {
-  const [formOpen, setFormOpen] = useState(false);
+  // const [formOpen, setFormOpen] = useState(false);
 
-  const handleForm = () => {
-    setFormOpen(!formOpen);
-    console.log(formOpen);
-  };
+  // const handleForm = () => {
+  //   setFormOpen(!formOpen);
+  //   console.log(formOpen);
+  // };
 
   // const handleFormClose = () => {
   //   setFormOpen(false);
@@ -36,7 +34,6 @@ const Home = (props) => {
 
   return (
     <>
-      <Header handleForm={handleForm} />
       <section id="slider">
         <div
           id="carouselindicators"
@@ -72,7 +69,7 @@ const Home = (props) => {
                         </button>
                         <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_blue_button"
-                          onClick={handleForm}
+                          onClick={props.handleForm}
                         >
                           <i className="far fa-calendar-alt"></i>
                           BOOK AN APPOINTMENT
@@ -144,7 +141,7 @@ const Home = (props) => {
                         </button>
                         <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_blue_button"
-                          onClick={handleForm}
+                          onClick={props.handleForm}
                         >
                           <i className="far fa-calendar-alt"></i>
                           BOOK AN APPOINTMENT
@@ -216,7 +213,7 @@ const Home = (props) => {
                         </button>
                         <button
                           className="read-more animate__animated animate__fadeInLeft animate__delay-1s theme_blue_button"
-                          onClick={handleForm}
+                          onClick={props.handleForm}
                         >
                           <i className="far fa-calendar-alt"></i>
                           BOOK AN APPOINTMENT
@@ -288,13 +285,6 @@ const Home = (props) => {
       <AboutUs />
       <CallingFeature />
       <News />
-      <div
-        className={`form-container-main-close ${
-          formOpen ? "form-container-main-open" : ""
-        }`}
-      >
-        <QueryForm handleForm={handleForm} />
-      </div>
     </>
   );
 };

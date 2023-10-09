@@ -79,8 +79,8 @@ const QueryForm = (props) => {
               with you shortly!
             </p>
           </div>
-          <button onClick={props.handleForm} class="btn-close">
-            <span class="close">&times;</span>
+          <button onClick={props.handleForm} className="btn-close">
+            <span className="close">&times;</span>
           </button>
         </div>
         <div className="Form-row">

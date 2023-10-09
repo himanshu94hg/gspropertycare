@@ -2240,3 +2240,7 @@ input:focus-visible,
 select:focus-visible {
   outline: none;
 }
+
+.about-us-page {
+  margin-top: 200px;
+}
