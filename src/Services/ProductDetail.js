@@ -5,14 +5,14 @@ import SmallLogo from "../Logo/SmallLogo";
 import QueryForm from "../Header/QueryForm";
 
 function ProductDetail() {
-  const { productId } = useParams();
-  const thisProduct = productsData.find((prod) => prod.id === productId);
+  const { productName } = useParams();
+  const thisProduct = productsData.find((prod) => prod.name === productName);
 
   return (
     <>
       <div className="container main_title">
         <SmallLogo />
-        <h1 className="product-heading">{thisProduct.name}</h1>
+        <h1 className="product-heading">{thisProduct.service}</h1>
       </div>
 
       <div className="container" style={{ paddingBottom: "75px" }}>

@@ -782,6 +782,16 @@
     text-align: center;
     max-width: 100%;
   }
+  .main_title h1,
+  .entry-title {
+    text-align: center;
+  }
+  .services-image.product {
+    width: 100%;
+    max-width: unset;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1096,6 +1106,16 @@
 @media screen and (max-width: 480px) {
   .our_records .our-records-details {
     top: 0px;
+  }
+  #service-page .row.services-short {
+    width: 88%;
+    margin: auto;
+  }
+  #our-services .box:before,
+  #our-services .box:after,
+  #our-services .box-content:before,
+  #our-services .box-content:after {
+    width: 0;
   }
 }
 @media screen and (max-width: 991px) {

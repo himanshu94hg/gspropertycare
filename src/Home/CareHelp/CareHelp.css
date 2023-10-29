@@ -1,0 +1,48 @@
+#how-we-work {
+  background-image: url("../../assets/img/how-we-helpbg.png");
+  position: relative;
+}
+
+.process-box img {
+  filter: invert(74%) sepia(62%) saturate(1064%) hue-rotate(358deg)
+    brightness(103%) contrast(106%);
+}
+
+.help-list-container {
+  margin-block: 60px;
+}
+
+.help-list-container ul {
+  margin: auto;
+  max-width: 85%;
+  list-style: none;
+}
+
+.help-list-container ul li {
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+}
+
+.help-list-container ul li::before {
+  content: "\f101";
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  display: inline-block;
+  position: absolute;
+  left: -40px;
+  font-size: 23px;
+  color: var(--yellow);
+}
+
+section#how-we-work::before {
+  content: "";
+  position: absolute;
+  background: url(https://www.betterhub.com.au/wp-content/themes/betterhub/image/slider-bubble.png)
+    repeat-x;
+  min-height: 42px;
+  bottom: -2px;
+  /* right: 0px; */
+  z-index: 9;
+  width: 100%;
+}

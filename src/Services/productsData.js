@@ -1,7 +1,8 @@
 const productsData = [
   {
     id: "1",
-    name: "Care Removals",
+    name: "CareRemovals",
+    service: "Care Removals",
     imageUrl: "removals",
     imageIconUrl: "removal",
     description:
@@ -12,7 +13,8 @@ const productsData = [
   },
   {
     id: "2",
-    name: "Care Bond Cleaning",
+    name: "CareBondCleaning",
+    service: "Care Bond Cleaning",
     imageUrl: "bondcleaning",
     imageIconUrl: "cleaning",
     description:
@@ -23,7 +25,8 @@ const productsData = [
   },
   {
     id: "3",
-    name: "Care Carpet Cleaning",
+    name: "CareCarpetCleaning",
+    service: "Care Carpet Cleaning",
     imageUrl: "steam-carpet-cleaning",
     imageIconUrl: "carpet",
     description: "Revitalize Your Space with Expert Carpet Cleaning Solutions!",
@@ -33,7 +36,8 @@ const productsData = [
   },
   {
     id: "4",
-    name: "Care Tiles Grout Cleaning",
+    name: "CareTilesGroutCleaning",
+    service: "Care Tiles Grout Cleaning",
     imageUrl: "tiles",
     imageIconUrl: "tiles",
     description:
@@ -44,7 +48,8 @@ const productsData = [
   },
   {
     id: "5",
-    name: "Care Handyman",
+    name: "CareHandyman",
+    service: "Care Handyman",
     imageUrl: "Handyman",
     imageIconUrl: "handymen",
     description:
@@ -55,7 +60,8 @@ const productsData = [
   },
   {
     id: "6",
-    name: "Care Plumbers",
+    name: "CarePlumbers",
+    service: "Care Plumbers",
     imageUrl: "Plumbers",
     imageIconUrl: "plumber",
     description:
@@ -66,7 +72,8 @@ const productsData = [
   },
   {
     id: "7",
-    name: "Care Gardening",
+    name: "CareGardening",
+    service: "Care Gardening",
     imageUrl: "gardening",
     imageIconUrl: "gardening",
     description:
@@ -77,7 +84,8 @@ const productsData = [
   },
   {
     id: "8",
-    name: "Care Electrician",
+    name: "CareElectrician",
+    service: "Care Electrician",
     imageUrl: "electrician",
     imageIconUrl: "electrician",
     description:
@@ -88,7 +96,8 @@ const productsData = [
   },
   {
     id: "9",
-    name: "Care Locksmith",
+    name: "CareLocksmith",
+    service: "Care Locksmith",
     imageUrl: "locksmith",
     imageIconUrl: "locksmith",
     description:

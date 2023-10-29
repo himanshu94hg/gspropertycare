@@ -8,6 +8,9 @@ import AboutUs from "./AboutUs/AboutUs";
 import AutoplayCarousel from "./OurServices/AutoplayCarousel";
 import News from "../News/News";
 import CallingFeature from "./CallingFeature/CallingFeature";
+import CareHelp from "./CareHelp/CareHelp";
+import PowerCare from "./powerCare/PowerCare";
+import Transforming from "./Transforming/Transforming";
 // import $ from "jquery";
 
 const Home = (props) => {
@@ -281,8 +284,11 @@ const Home = (props) => {
         <div className="clearfix"></div>
       </section>
       <Features />
-      <AutoplayCarousel />
       <AboutUs />
+      <AutoplayCarousel />
+      <PowerCare />
+      <Transforming />
+      <CareHelp />
       <CallingFeature />
       <News />
     </>

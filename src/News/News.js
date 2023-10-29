@@ -4,7 +4,7 @@ import newsOne from "../assets/img/news1.webp";
 import newsTwo from "../assets/img/news2.webp";
 import newsThree from "../assets/img/news3.webp";
 import newsFour from "../assets/img/3.webp";
-import newsFive from "../assets/img/1.webp";
+import newsFive from "../assets/img/1_1.webp";
 import SmallLogo from "../Logo/SmallLogo";
 
 const News = () => {
@@ -35,13 +35,11 @@ const News = () => {
                   />
                 </div>
                 <h5>
-                  <a href="/">BLOG TITLE NUMBER 1</a>
+                  <a href="/">ELECTRICIAN</a>
                 </h5>
                 <div className="news-text">
-                  Ensuring adequate sleep is crucial. In contrast, he enjoys a
-                  lavish lifestyle. For instance, whenever I visit foreign
-                  colleagues early in the morning to transcribe contracts, those
-                  men remain seated, unfailingly.
+                  Empowering Your Home: The Essential Guide to Electrician
+                  Services
                 </div>
                 <div className="news-icon-box">
                   <div className="row">
@@ -82,7 +80,7 @@ const News = () => {
                     <span>09 Jul 2021</span>
                     <img src={newsTwo} alt="Alt Tag for latest-news img2" />
                   </div>
-                  <h5>BLOG TITLE NUMBER 2</h5>
+                  <h5>PAINTING</h5>
                   <div className="news-icon-box">
                     <div className="row">
                       <div className="col-lg-6 col-md-6 col-sm-12 news-comments">
@@ -101,7 +99,7 @@ const News = () => {
                     <span>09 Jul 2021</span>
                     <img src={newsThree} alt="Alt Tag for latest-news img3" />
                   </div>
-                  <h5>BLOG TITLE NUMBER 3</h5>
+                  <h5>REPAIRING</h5>
                   <div className="news-icon-box">
                     <div className="row">
                       <div className="col-lg-6 col-md-6 col-sm-12 news-comments">
@@ -120,7 +118,7 @@ const News = () => {
                     <span>09 Jul 2021</span>
                     <img src={newsFour} alt="Alt Tag for latest-news img4" />
                   </div>
-                  <h5>BLOG TITLE NUMBER 4</h5>
+                  <h5>CARPENTER</h5>
                   <div className="news-icon-box">
                     <div className="row">
                       <div className="col-lg-6 col-md-6 col-sm-12 news-comments">
@@ -139,7 +137,7 @@ const News = () => {
                     <span>09 Jul 2021</span>
                     <img src={newsFive} alt="Alt Tag for latest-news img5" />
                   </div>
-                  <h5>BLOG TITLE NUMBER 5</h5>
+                  <h5>PLUMBING</h5>
                   <div className="news-icon-box">
                     <div className="row">
                       <div className="col-lg-6 col-md-6 col-sm-12 news-comments">

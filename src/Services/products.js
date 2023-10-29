@@ -8,7 +8,7 @@ const Products = () => {
   const products = productsData.map((product) => {
     return (
       <div className="col-lg-4 col-md-6 col-sm-6" key={product.id}>
-        <Link to={`/Services/${product.id}`}>
+        <Link to={`/Services/${product.name}`}>
           <div className="box services-info ">
             <img
               width={370}
@@ -25,7 +25,7 @@ const Products = () => {
                   alt="RemovalIcon"
                 />
               </span>
-              <h5>{product.name}</h5>
+              <h5>{product.service}</h5>
               <div className="services-text">{product.description}</div>
             </div>
             <div className="services-box">
@@ -53,7 +53,7 @@ const Products = () => {
         <h1>Services we Offer to our Customers</h1>
       </div>
 
-      <div className="container inner_layout">
+      <div className="container inner_layout" id="service-page">
         <main id="maincontent" role="main">
           <div className="middle-content">
             <article

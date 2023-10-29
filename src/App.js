@@ -44,7 +44,7 @@ function App() {
             }
           />
           <Route path="/Services" element={<Products />} />
-          <Route path="/Services/:productId" element={<ProductDetail />} />
+          <Route path="/Services/:productName" element={<ProductDetail />} />
           <Route
             path="/AboutUs"
             element={

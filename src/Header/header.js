@@ -204,7 +204,7 @@ const Header = (props) => {
                                                   id="menu-item-74"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-74"
                                                 >
-                                                  <Link to="/services/1">
+                                                  <Link to="/services/CareRemovals">
                                                     Care Removals
                                                   </Link>
                                                 </li>
@@ -212,7 +212,7 @@ const Header = (props) => {
                                                   id="menu-item-75"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                                                 >
-                                                  <Link to="/services/2">
+                                                  <Link to="/services/CareBondCleaning">
                                                     Care Bond Cleaning
                                                   </Link>
                                                 </li>
@@ -221,7 +221,7 @@ const Header = (props) => {
                                                   id="menu-item-75"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                                                 >
-                                                  <Link to="/services/3">
+                                                  <Link to="/services/CareCarpetCleaning">
                                                     Care Carpet Cleaning
                                                   </Link>
                                                 </li>
@@ -230,7 +230,7 @@ const Header = (props) => {
                                                   id="menu-item-75"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                                                 >
-                                                  <Link to="/services/4">
+                                                  <Link to="/services/CareTilesGroutCleaning">
                                                     Care Tiles Grout Cleaning
                                                   </Link>
                                                 </li>
@@ -239,7 +239,7 @@ const Header = (props) => {
                                                   id="menu-item-75"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                                                 >
-                                                  <Link to="/services/5">
+                                                  <Link to="/services/CareHandyman">
                                                     Care Handyman
                                                   </Link>
                                                 </li>
@@ -248,7 +248,7 @@ const Header = (props) => {
                                                   id="menu-item-75"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                                                 >
-                                                  <Link to="/services/6">
+                                                  <Link to="/services/CarePlumbers">
                                                     Care Plumbers
                                                   </Link>
                                                 </li>
@@ -257,7 +257,7 @@ const Header = (props) => {
                                                   id="menu-item-75"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                                                 >
-                                                  <Link to="/services/7">
+                                                  <Link to="/services/CareGardening">
                                                     Care Gardening
                                                   </Link>
                                                 </li>
@@ -266,7 +266,7 @@ const Header = (props) => {
                                                   id="menu-item-75"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                                                 >
-                                                  <Link to="/services/8">
+                                                  <Link to="/services/CareElectrician">
                                                     Care Electrician
                                                   </Link>
                                                 </li>
@@ -275,7 +275,7 @@ const Header = (props) => {
                                                   id="menu-item-75"
                                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"
                                                 >
-                                                  <Link to="/services/9">
+                                                  <Link to="/services/CareLocksmith">
                                                     Care Locksmith
                                                   </Link>
                                                 </li>

@@ -1082,7 +1082,7 @@
 }
 
 #latest-news {
-  padding-top: 10%;
+  padding-block: 10%;
 }
 
 .our_records .our-records-details {
@@ -1193,4 +1193,8 @@ button.search-submit {
 
 .outer-main {
   color: inherit !important;
+}
+
+.box.services-info:hover h5 {
+  color: #fff;
 }

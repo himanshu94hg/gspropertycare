@@ -1,0 +1,22 @@
+#power-section {
+  background-image: url("../../assets/img/hero-bg_theme.webp");
+  position: relative;
+}
+
+section#power-section::before {
+  content: "";
+  position: absolute;
+  background: url(https://www.betterhub.com.au/wp-content/themes/betterhub/image/slider-bubble.png)
+    repeat-x;
+  min-height: 42px;
+  bottom: -2px;
+  /* right: 0px; */
+  z-index: 9;
+  width: 100%;
+}
+
+#power-section h3 {
+  white-space: break-spaces;
+  color: #fff;
+  margin-block: 25px;
+}
