@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "animate.css";
 import Home from "./Home/Home";
 import Footer from "./Footer/Footer";
-import "animate.css";
 import "./otherPage.css";
 import "./mobile-main.css";
 import { useState } from "react";
@@ -44,7 +44,7 @@ function App() {
             }
           />
           <Route path="/Services" element={<Products />} />
-          <Route path="/Services/:productName" element={<ProductDetail />} />
+          <Route path="/:productName" element={<ProductDetail />} />
           <Route
             path="/AboutUs"
             element={

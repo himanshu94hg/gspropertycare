@@ -12,7 +12,7 @@ const Footer = (props) => {
                 <div className="container footer-cols">
                   <section
                     id="our-brands"
-                    style={{ backgroundColor: "var(--blue)" }}
+                    style={{ backgroundColor: "#4ba0e8" }}
                     className=""
                     data-loops="true"
                     data-speed={3000}
@@ -23,7 +23,7 @@ const Footer = (props) => {
                           <div
                             className="owl-stage"
                             style={{
-                              transform: "translate3d(-1760px, 0px, 0px)",
+                              transform: "translate3d(-1100px, 0px, 0px)",
                               transition: "all 0.25s ease 0s",
                               width: 3300,
                             }}
@@ -34,7 +34,7 @@ const Footer = (props) => {
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand1.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand1.png"
                                   alt="Alt tab for Our Brand img 1"
                                 />
                               </div>
@@ -45,7 +45,7 @@ const Footer = (props) => {
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand2.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand2.png"
                                   alt="Alt tab for Our Brand img 2"
                                 />
                               </div>
@@ -56,7 +56,7 @@ const Footer = (props) => {
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand3.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand3.png"
                                   alt="Alt tab for Our Brand img 3"
                                 />
                               </div>
@@ -67,7 +67,7 @@ const Footer = (props) => {
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand4.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand4.png"
                                   alt="Alt tab for Our Brand img 4"
                                 />
                               </div>
@@ -78,40 +78,40 @@ const Footer = (props) => {
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand5.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand5.png"
                                   alt="Alt tab for Our Brand img 5"
                                 />
                               </div>
                             </div>
                             <div
-                              className="owl-item"
+                              className="owl-item active"
                               style={{ width: 200, marginRight: 20 }}
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand1.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand1.png"
                                   alt="Alt tab for Our Brand img 1"
                                 />
                               </div>
                             </div>
                             <div
-                              className="owl-item"
+                              className="owl-item active"
                               style={{ width: 200, marginRight: 20 }}
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand2.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand2.png"
                                   alt="Alt tab for Our Brand img 2"
                                 />
                               </div>
                             </div>
                             <div
-                              className="owl-item"
+                              className="owl-item active"
                               style={{ width: 200, marginRight: 20 }}
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand3.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand3.png"
                                   alt="Alt tab for Our Brand img 3"
                                 />
                               </div>
@@ -122,7 +122,7 @@ const Footer = (props) => {
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand4.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand4.png"
                                   alt="Alt tab for Our Brand img 4"
                                 />
                               </div>
@@ -133,40 +133,40 @@ const Footer = (props) => {
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand5.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand5.png"
                                   alt="Alt tab for Our Brand img 5"
                                 />
                               </div>
                             </div>
                             <div
-                              className="owl-item cloned active"
+                              className="owl-item cloned"
                               style={{ width: 200, marginRight: 20 }}
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand1.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand1.png"
                                   alt="Alt tab for Our Brand img 1"
                                 />
                               </div>
                             </div>
                             <div
-                              className="owl-item cloned active"
+                              className="owl-item cloned"
                               style={{ width: 200, marginRight: 20 }}
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand2.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand2.png"
                                   alt="Alt tab for Our Brand img 2"
                                 />
                               </div>
                             </div>
                             <div
-                              className="owl-item cloned active"
+                              className="owl-item cloned"
                               style={{ width: 200, marginRight: 20 }}
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand3.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand3.png"
                                   alt="Alt tab for Our Brand img 3"
                                 />
                               </div>
@@ -177,7 +177,7 @@ const Footer = (props) => {
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand4.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand4.png"
                                   alt="Alt tab for Our Brand img 4"
                                 />
                               </div>
@@ -188,7 +188,7 @@ const Footer = (props) => {
                             >
                               <div className="brand-images ">
                                 <img
-                                  src="https://www.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand5.png"
+                                  src="https://preview.vwthemesdemo.com/vw-cleaning-company-pro/wp-content/themes/vw-cleaning-company-pro/assets/images/brands/brand5.png"
                                   alt="Alt tab for Our Brand img 5"
                                 />
                               </div>
@@ -227,6 +227,7 @@ const Footer = (props) => {
                       </div>
                     </div>
                   </section>
+
                   {/* http://gspropertycare.com.au/ */}
                   <div className="row footer-details">
                     <div className="col-lg-6 col-sm-6 footer1">

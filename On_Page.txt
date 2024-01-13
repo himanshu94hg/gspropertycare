@@ -1,0 +1,84 @@
+Url 
+
+https://www.gspropertycare.com.au/
+https://www.gspropertycare.com.au/services/removalists
+https://www.gspropertycare.com.au/bond-cleaning
+https://www.gspropertycare.com.au/carpet-cleaning
+https://www.gspropertycare.com.au/tile-and-grout-cleaning
+https://www.gspropertycare.com.au/handyman
+https://www.gspropertycare.com.au/plumber
+https://www.gspropertycare.com.au/gardening-services
+https://www.gspropertycare.com.au/electrician
+https://www.gspropertycare.com.au/locksmith
+https://www.gspropertycare.com.au/about-us
+https://www.gspropertycare.com.au/get-quote
+
+
+
+Plz Redirect https://gspropertycare.com.au/ to https://www.gspropertycare.com.au/
+
+Canonical Tag
+
+<link rel="canonical" href="https://www.gspropertycare.com.au/" />
+
+Google Analytics
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4FYQB76TQE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4FYQB76TQE');
+</script>
+
+Google Search Console
+
+https://www.gspropertycare.com.au/<meta name="google-site-verification" content="bJUMz4IyTWAYe1zdM8VsisOY5BuTSCrTJQLau0eYMGA" />
+
+
+Local Business Schema
+
+
+<!-- Generated using https://microdatagenerator.org/localbusiness-microdata-generator/ -->
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "HomeAndConstructionBusiness",
+	"name": "Gspropertycare",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "22 Gray St, Plympton SA 5038, Australia",
+		"addressLocality": "Plympton",
+		"addressRegion": "South Australia",
+		"postalCode": "5038"
+	},
+	"image": "https://gspropertycare.com.au/#/",
+	"email": "quotes@gsbondcleaning.com.au",
+	"telePhone": "0884440442",
+	"url": "https://www.gspropertycare.com.au/",
+	"paymentAccepted": [ "cash", "credit card" ],
+	"openingHours": "Mo,Tu,We,Th,Fr,Sa 08:00-18:00",
+	"openingHoursSpecification": [ {
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": [
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday",
+			"Friday",
+			"Saturday"
+		],
+		"opens": "08:00",
+		"closes": "18:00"
+	} ],
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "-34.9557499",
+		"longitude": "138.5623743"
+	},
+	"priceRange":"$"
+
+}
+</script>        

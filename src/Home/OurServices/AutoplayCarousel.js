@@ -29,14 +29,17 @@ const AutoplayCarousel = () => {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: window.innerWidth > 991 ? 3000 : 2000,
+    autoplaySpeed: window.innerWidth > 991 ? 2000 : 2000,
     slidesToShow: window.innerWidth > 991 ? 3 : 1,
     slidesToScroll: window.innerWidth > 991 ? 2 : 1,
     arrows: false,
   };
 
   return (
-    <section id="our-services" style={{ marginTop: "-52px" }}>
+    <section
+      id="our-services"
+      style={{ marginTop: "-52px", paddingBlock: "100px" }}
+    >
       <div className="container">
         <div className="services-head section_main_head text-center pb-5 block_head">
           <SmallLogo />
@@ -44,7 +47,7 @@ const AutoplayCarousel = () => {
           <h3>OUR CLEANING SERVICES </h3>
         </div>
         <Slider {...settings}>
-          <Link to="/Services/CareRemovals">
+          <Link to="/CareRemovals">
             <div className="box services-info ">
               <img
                 width={370}
@@ -76,7 +79,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/Services/CareBondCleaning">
+          <Link to="/CareBondCleaning">
             <div className="box services-info ">
               <img
                 width={370}
@@ -108,7 +111,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/Services/CareCarpetCleaning">
+          <Link to="/CareCarpetCleaning">
             <div className="box services-info ">
               <img
                 width={370}
@@ -143,7 +146,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/Services/CareTilesGroutCleaning">
+          <Link to="/CareTilesGroutCleaning">
             <div className="box services-info ">
               <img
                 width={370}
@@ -175,7 +178,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/Services/CareHandyman">
+          <Link to="/CareHandyman">
             <div className="box services-info ">
               <img
                 width={370}
@@ -211,7 +214,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/Services/CarePlumbers">
+          <Link to="/CarePlumbers">
             <div className="box services-info ">
               <img
                 width={370}
@@ -248,7 +251,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/Services/CareGardening">
+          <Link to="/CareGardening">
             <div className="box services-info ">
               <img
                 width={370}
@@ -286,7 +289,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/Services/CareElectrician">
+          <Link to="/CareElectrician">
             <div className="box services-info ">
               <img
                 width={370}
@@ -324,7 +327,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/Services/CareLocksmith">
+          <Link to="/CareLocksmith">
             <div className="box services-info ">
               <img
                 width={370}

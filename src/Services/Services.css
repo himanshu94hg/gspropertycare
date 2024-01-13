@@ -1,3 +1,45 @@
 #maincontent .services-box {
   min-height: 232px;
 }
+
+.product-main {
+  margin-bottom: 0;
+  margin-top: 130px;
+}
+
+.product-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center !important;
+}
+
+.product-des {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product-heading:after {
+  margin: 0 auto;
+}
+
+.product-banner {
+  display: flex;
+}
+
+.product-banner img {
+  margin: auto;
+  max-width: 85%;
+}
+
+.section-des .text-heading {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1054px) {
+  .product-heading {
+    font-size: 18px !important;
+    white-space: break-spaces;
+  }
+}

@@ -2,8 +2,22 @@ import React from "react";
 import SmallLogo from "../../Logo/SmallLogo";
 import AboutImage from "../../assets/img/about-img.webp";
 import { Link } from "react-router-dom";
+// import useScrollAnimation from "../../ScrollAnimation";
 
 const AboutUs = () => {
+  // const h1AnimatedElementRef = useScrollAnimation(
+  //   ["animate__animated", "animate__fadeInLeft"],
+  //   0.6
+  // );
+  // const pAnimatedElementRef = useScrollAnimation(
+  //   ["animate__animated", "animate__fadeInRight"],
+  //   0.8
+  // );
+
+  // const imgAnimatedElementRef = useScrollAnimation(
+  //   ["animate__animated", "animate__fadeInRight"],
+  //   0.8
+  // );
   return (
     <>
       <section id="about-us">
@@ -12,10 +26,13 @@ const AboutUs = () => {
             <div className="col-lg-6 col-md-12 about-details pb-5">
               <div className="about-head section_main_head">
                 <div className="media">
+                  {/* <SmallLogo ref={imgAnimatedElementRef} /> */}
                   <SmallLogo />
                   <div className="media-body about-title">
-                    <small>ABOUT US </small>
-                    <h3>WELCOME TO GS Property Care </h3>
+                    {/* <p className="small" ref={pAnimatedElementRef}> */}
+                    <p className="small">ABOUT US</p>
+                    {/* <h3 ref={h1AnimatedElementRef}> */}
+                    <h3>WELCOME TO GS Property Care</h3>
                   </div>
                 </div>
               </div>

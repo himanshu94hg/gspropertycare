@@ -11,6 +11,8 @@ import CallingFeature from "./CallingFeature/CallingFeature";
 import CareHelp from "./CareHelp/CareHelp";
 import PowerCare from "./powerCare/PowerCare";
 import Transforming from "./Transforming/Transforming";
+import HowWeWork from "./HowWeWork/HowWeWork";
+import FAQ from "./FAQ/FAQ";
 // import $ from "jquery";
 
 const Home = (props) => {
@@ -291,6 +293,8 @@ const Home = (props) => {
       <CareHelp />
       <CallingFeature />
       <News />
+      <HowWeWork />
+      <FAQ />
     </>
   );
 };

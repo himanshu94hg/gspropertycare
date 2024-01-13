@@ -1,12 +1,12 @@
 import React from "react";
 import SmallLogo from "../../Logo/SmallLogo";
-import Project from "../../assets/img/project/project2.png";
+import Project from "../../assets/img/project/why-choose.webp";
 import "./Transforming.css";
 
 const Transforming = () => {
   return (
     <>
-      <section id="latest-news" className="">
+      <section id="transforming" className="">
         <div className="container">
           <div className="news-head section_main_head text-center pb-5 block_head">
             <SmallLogo />
@@ -16,7 +16,10 @@ const Transforming = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-12 d-flex flex-column justify-content-between">
+            <div
+              className="col-lg-6 col-md-12 d-flex flex-column"
+              style={{ justifyContent: "space-evenly" }}
+            >
               <p>
                 Maintaining and enhancing your property is a challenge and often
                 requires care that one needs to work hard on. From repairing to

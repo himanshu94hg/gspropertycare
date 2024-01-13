@@ -1,0 +1,16 @@
+.how-we-work-points {
+  position: relative;
+  list-style: none;
+  margin-left: 37px;
+}
+
+.how-we-work-points li::before {
+  content: "\f101";
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  display: inline-block;
+  position: absolute;
+  left: -40px;
+  font-size: 23px;
+  color: var(--blue);
+}

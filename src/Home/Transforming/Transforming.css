@@ -1,3 +1,7 @@
 .section_main_head h3 {
   white-space: break-spaces;
 }
+
+#transforming {
+  padding-block: 100px;
+}

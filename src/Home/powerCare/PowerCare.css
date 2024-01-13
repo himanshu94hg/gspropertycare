@@ -1,13 +1,12 @@
 #power-section {
-  background-image: url("../../assets/img/hero-bg_theme.webp");
+  background-image: url("../../assets/img/professional-cleaning-service-person-using-vacuum-cleaner-office.webp");
   position: relative;
 }
 
 section#power-section::before {
   content: "";
   position: absolute;
-  background: url(https://www.betterhub.com.au/wp-content/themes/betterhub/image/slider-bubble.png)
-    repeat-x;
+  background: url(../../assets/img/slider-bubble.png) repeat-x;
   min-height: 42px;
   bottom: -2px;
   /* right: 0px; */

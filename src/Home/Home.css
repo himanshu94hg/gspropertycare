@@ -251,10 +251,11 @@
   white-space: nowrap;
 }
 
-.section_main_head small {
+.section_main_head .small {
   font: 600 14px var(--common-font-p);
   letter-spacing: 6px;
   color: var(--color11);
+  margin: 0;
 }
 
 #about-us .about-head .media svg {
@@ -977,7 +978,11 @@
 #latest-news .news-box2 h5 {
   letter-spacing: 1px;
   display: inline-block;
-  padding-top: 15px;
+  /* padding-top: 15px; */
+}
+
+#latest-news .news-box1 h5 {
+  padding-block-end: 0;
 }
 
 #latest-news .news-box2 h5 {
@@ -1005,7 +1010,7 @@
 #latest-news .news-icon-box {
   border: 1px solid #e8e8e8;
   padding: 12px;
-  margin-top: 25px;
+  margin-top: 18px;
 }
 
 #latest-news .news-button {
@@ -1082,7 +1087,7 @@
 }
 
 #latest-news {
-  padding-block: 10%;
+  padding-top: 10%;
 }
 
 .our_records .our-records-details {

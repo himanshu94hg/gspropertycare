@@ -30,14 +30,17 @@ const QueryForm = (props) => {
     e.preventDefault();
 
     try {
-      let res = await fetch("https://arshadk.online/api/add/order", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(orderForm),
-      });
+      let res = await fetch(
+        "https://admin.gspropertycare.com.au/api/add/order",
+        {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(orderForm),
+        }
+      );
       let resJson = await res.json();
 
       if (resJson.status === 200) {

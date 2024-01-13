@@ -5,8 +5,21 @@ import featureThree from "../assets/img/8.webp";
 import featureFour from "../assets/img/1.webp";
 import featureFive from "../assets/img/7.jpg";
 // import featureSix from "../assets/img/7.jpg";
+// import useScrollAnimation from "../ScrollAnimation";
 
 const Features = () => {
+  // const AnimatedElementRefOne = useScrollAnimation(
+  //   ["animate__animated", "animate__fadeInLeft"],
+  //   0.6
+  // );
+  // const AnimatedElementRefTwo = useScrollAnimation(
+  //   ["animate__animated", "animate__fadeInLeft"],
+  //   0.6
+  // );
+  // const AnimatedElementRefThree = useScrollAnimation(
+  //   ["animate__animated", "animate__fadeInLeft"],
+  //   0.6
+  // );
   return (
     <>
       <section id="our-features">
@@ -39,6 +52,7 @@ const Features = () => {
                     <img src={featureThree} alt="Alt Tag for feature icon" />
                   </span>
                   <div className="media-body">
+                    {/* <h5 ref={AnimatedElementRefOne}> */}
                     <h5>
                       <a href="/">BONDED &amp; INSURED </a>
                     </h5>
@@ -50,6 +64,7 @@ const Features = () => {
                     <img src={featureFour} alt="Alt Tag for feature icon" />
                   </span>
                   <div className="media-body">
+                    {/* <h5 ref={AnimatedElementRefTwo}> */}
                     <h5>
                       <a href="/">QUALITY CLEANS </a>
                     </h5>
@@ -63,6 +78,7 @@ const Features = () => {
                     <img src={featureFive} alt="Alt Tag for feature icon" />
                   </span>
                   <div className="media-body">
+                    {/* <h5 ref={AnimatedElementRefThree}> */}
                     <h5>
                       <a href="/">HAPPY CUSTOMERS </a>
                     </h5>
