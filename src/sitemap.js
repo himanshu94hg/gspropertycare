@@ -5,16 +5,16 @@ const hostname = "https://www.gspropertycare.com.au/";
 const urls = [
   { url: "/", changefreq: "daily", priority: 1 },
   { url: "/Services", changefreq: "monthly", priority: 0.8 },
-  { url: "/CareRemovals", changefreq: "monthly", priority: 0.8 },
-  { url: "/CareBondCleaning", changefreq: "monthly", priority: 0.8 },
-  { url: "/CareCarpetCleaning", changefreq: "monthly", priority: 0.8 },
-  { url: "/CareTilesGroutCleaning", changefreq: "monthly", priority: 0.8 },
-  { url: "/CareHandyman", changefreq: "monthly", priority: 0.8 },
-  { url: "/CarePlumbers", changefreq: "monthly", priority: 0.8 },
-  { url: "/CareGardening", changefreq: "monthly", priority: 0.8 },
-  { url: "/CareElectrician", changefreq: "monthly", priority: 0.8 },
-  { url: "/CareLocksmith", changefreq: "monthly", priority: 0.8 },
-  { url: "/AboutUs", changefreq: "monthly", priority: 0.8 },
+  { url: "/removalists", changefreq: "monthly", priority: 0.8 },
+  { url: "/bond-cleaning", changefreq: "monthly", priority: 0.8 },
+  { url: "/carpet-cleaning", changefreq: "monthly", priority: 0.8 },
+  { url: "/tile-and-grout-cleaning", changefreq: "monthly", priority: 0.8 },
+  { url: "/handyman", changefreq: "monthly", priority: 0.8 },
+  { url: "/plumber", changefreq: "monthly", priority: 0.8 },
+  { url: "/gardening-services", changefreq: "monthly", priority: 0.8 },
+  { url: "/electrician", changefreq: "monthly", priority: 0.8 },
+  { url: "/locksmith", changefreq: "monthly", priority: 0.8 },
+  { url: "/about-us", changefreq: "monthly", priority: 0.8 },
   // Add additional pages here
 ];
 

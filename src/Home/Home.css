@@ -330,6 +330,7 @@
 #our-services .box h5 {
   padding-top: 15px;
   font-weight: 700;
+  white-space: break-spaces;
 }
 
 #our-services .box-content h5 a {

@@ -47,7 +47,7 @@ const AutoplayCarousel = () => {
           <h3>OUR CLEANING SERVICES </h3>
         </div>
         <Slider {...settings}>
-          <Link to="/CareRemovals">
+          <Link to="/removalists">
             <div className="box services-info ">
               <img
                 width={370}
@@ -79,7 +79,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/CareBondCleaning">
+          <Link to="/bond-cleaning">
             <div className="box services-info ">
               <img
                 width={370}
@@ -111,7 +111,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/CareCarpetCleaning">
+          <Link to="/carpet-cleaning">
             <div className="box services-info ">
               <img
                 width={370}
@@ -146,7 +146,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/CareTilesGroutCleaning">
+          <Link to="/tile-and-grout-cleaning">
             <div className="box services-info ">
               <img
                 width={370}
@@ -178,7 +178,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/CareHandyman">
+          <Link to="/handyman">
             <div className="box services-info ">
               <img
                 width={370}
@@ -214,7 +214,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/CarePlumbers">
+          <Link to="/plumber">
             <div className="box services-info ">
               <img
                 width={370}
@@ -251,7 +251,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/CareGardening">
+          <Link to="/gardening-services">
             <div className="box services-info ">
               <img
                 width={370}
@@ -289,7 +289,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/CareElectrician">
+          <Link to="/electrician">
             <div className="box services-info ">
               <img
                 width={370}
@@ -327,7 +327,7 @@ const AutoplayCarousel = () => {
               </div>
             </div>
           </Link>
-          <Link to="/CareLocksmith">
+          <Link to="/locksmith">
             <div className="box services-info ">
               <img
                 width={370}

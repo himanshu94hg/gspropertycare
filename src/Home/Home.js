@@ -4,7 +4,6 @@ import Features from "./features";
 import heroBG from "../assets/img/hero-bg3.webp";
 import heroBGTwo from "../assets/img/hero-bg3.jpg";
 import heroBGThree from "../assets/img/hero-bg-5.png";
-import AboutUs from "./AboutUs/AboutUs";
 import AutoplayCarousel from "./OurServices/AutoplayCarousel";
 import News from "../News/News";
 import CallingFeature from "./CallingFeature/CallingFeature";
@@ -13,6 +12,7 @@ import PowerCare from "./powerCare/PowerCare";
 import Transforming from "./Transforming/Transforming";
 import HowWeWork from "./HowWeWork/HowWeWork";
 import FAQ from "./FAQ/FAQ";
+import AboutUs from "./AboutUs/AboutUs";
 // import $ from "jquery";
 
 const Home = (props) => {

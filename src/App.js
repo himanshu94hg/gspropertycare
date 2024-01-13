@@ -46,7 +46,7 @@ function App() {
           <Route path="/Services" element={<Products />} />
           <Route path="/:productName" element={<ProductDetail />} />
           <Route
-            path="/AboutUs"
+            path="/about-us"
             element={
               <div className="about-us-page">
                 <AboutUs />

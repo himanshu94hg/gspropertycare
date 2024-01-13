@@ -1,7 +1,8 @@
 const productsData = [
   {
     id: "1",
-    name: "CareRemovals",
+    name: "removalists",
+    nameDisplay: "Care Removals",
     service:
       "Premium House Removalists Service in Melbourne by GS Property Care",
     Byline:
@@ -55,7 +56,8 @@ const productsData = [
   },
   {
     id: "2",
-    name: "CareBondCleaning",
+    name: "bond-cleaning",
+    nameDisplay: "Care Bond Cleaning",
     service: "Reliable and Professional Bond Cleaning Services",
     Byline: "Trusted Partner for Expertise in Bond Cleaning Services",
     firstHeading: "",
@@ -118,7 +120,8 @@ const productsData = [
   },
   {
     id: "3",
-    name: "CareCarpetCleaning",
+    name: "carpet-cleaning",
+    nameDisplay: "Care Carpet Cleaning",
     service: "Revive Your Carpets with GS Property Care",
     Byline: "Premium Carpet Cleaning Services in Melbourne",
     firstHeading: "Give Your Carpets A Fresh Look With Premium Cleaning",
@@ -171,7 +174,8 @@ const productsData = [
   },
   {
     id: "4",
-    name: "CareTilesGroutCleaning",
+    name: "tile-and-grout-cleaning",
+    nameDisplay: "Care Tiles Grout Cleaning",
     service: "Expert of Tile Floors of All Kinds",
     Byline: "Bring Sparkle Back to Your Floors",
     firstHeading:
@@ -228,7 +232,8 @@ const productsData = [
   },
   {
     id: "5",
-    name: "CareHandyman",
+    name: "handyman",
+    nameDisplay: "Care Handyman",
     service:
       "Visit the website to book exceptional tile cleaning services with GS Property Care!",
     Byline: "Get World-Class Handyman Services in Your Local Neighbourhood",
@@ -287,7 +292,8 @@ const productsData = [
   },
   {
     id: "6",
-    name: "CarePlumbers",
+    name: "plumber",
+    nameDisplay: "Care Plumbers",
     service:
       "Visit the website to book exceptional handyman services with GS Property Care!",
     Byline:
@@ -340,7 +346,8 @@ const productsData = [
   },
   {
     id: "7",
-    name: "CareGardening",
+    name: "gardening-services",
+    nameDisplay: "Care Gardening",
     service: "Your Green Haven: A Guide to Gardening Services",
     Byline:
       "Discover the Best Gardening Services in Melbourne for a Blooming Garden Paradise",
@@ -395,7 +402,8 @@ const productsData = [
   },
   {
     id: "8",
-    name: "CareElectrician",
+    name: "electrician",
+    nameDisplay: "Care Electrician",
     service: "Your Most Reliable Electrician in Melbourne",
     Byline:
       "Explore the Finest Electrician Services in Melbourne for a Brighter Tomorrow",
@@ -447,7 +455,8 @@ const productsData = [
   },
   {
     id: "9",
-    name: "CareLocksmith",
+    name: "locksmith",
+    nameDisplay: "Care Locksmith",
     service: "GS Property Care: Your Key to Premier Locksmith Services",
     Byline:
       "Unlock Trustworthy Locksmith Services in Melbourne for a Safer Tomorrow",

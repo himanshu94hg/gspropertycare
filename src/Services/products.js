@@ -35,7 +35,7 @@ const Products = () => {
                   alt="RemovalIcon"
                 />
               </span>
-              <h5>Care Removals</h5>
+              <h5>{product.nameDisplay}</h5>
               <div className="services-text outer-main">
                 {product.description}
               </div>
